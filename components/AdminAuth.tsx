@@ -90,9 +90,10 @@ export function AdminAuth({ userEmail, isAdmin }: AdminAuthProps) {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="border border-black px-3 py-2 text-xs uppercase tracking-[0.16em] transition hover:bg-black hover:text-white"
+        className="flex h-11 w-11 shrink-0 items-center justify-center border border-black text-xs uppercase transition hover:bg-black hover:text-white sm:w-auto sm:px-3 sm:py-2 sm:tracking-[0.16em]"
       >
-        Admin
+        <span className="sm:hidden">A</span>
+        <span className="hidden sm:inline">Admin</span>
       </button>
 
       {open ? (

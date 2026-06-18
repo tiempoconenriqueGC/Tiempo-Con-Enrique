@@ -16,3 +16,9 @@ Creating turbopack project {
 ✓ Finished writing to filesystem cache in 57s
  GET / 200 in 88s (next.js: 21.3s, application-code: 67s)
 ✓ Finished filesystem cache database compaction in 16.0s
+ GET / 200 in 269ms (next.js: 51ms, application-code: 219ms)
+ GET / 200 in 786ms (next.js: 275ms, application-code: 510ms)
+ GET / 200 in 994ms (next.js: 123ms, application-code: 871ms)
+✓ Compiled in 1040ms
+ GET / 200 in 1482ms (next.js: 797ms, application-code: 685ms)
+ GET / 200 in 258ms (next.js: 15ms, application-code: 244ms)

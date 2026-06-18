@@ -10,8 +10,8 @@ type HeaderProps = {
 
 export function Header({ userEmail, isAdmin, compact = false }: HeaderProps) {
   return (
-    <header className="mx-auto w-full max-w-5xl px-5 pt-8 sm:px-8 sm:pt-12">
-      <div className="flex items-center justify-between gap-4">
+    <header className="relative mx-auto w-full max-w-5xl px-5 pt-8 sm:px-8 sm:pt-12">
+      <div className="flex items-center pr-16 sm:pr-40">
         <Link href="/" className="flex min-w-0 items-center gap-3">
           <Image
             src="/logo-tce.png"
@@ -26,7 +26,9 @@ export function Header({ userEmail, isAdmin, compact = false }: HeaderProps) {
           </span>
         </Link>
 
-        <AdminAuth userEmail={userEmail} isAdmin={isAdmin} />
+        <div className="absolute right-5 top-8 sm:right-8 sm:top-12">
+          <AdminAuth userEmail={userEmail} isAdmin={isAdmin} />
+        </div>
       </div>
 
       <div className={compact ? "mt-10 border-b border-border pb-8" : "mt-14 border-b border-border pb-12"}>

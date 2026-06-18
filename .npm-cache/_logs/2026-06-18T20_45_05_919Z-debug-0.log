@@ -149,3 +149,302 @@
 148 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fpostcss cache-miss
 149 http fetch GET https://registry.npmjs.org/@tailwindcss%2fpostcss attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
 150 http fetch GET https://registry.npmjs.org/@tailwindcss%2fpostcss attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+151 http fetch GET https://registry.npmjs.org/@tailwindcss%2fpostcss attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+152 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fpostcss 109505ms (cache stale)
+153 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fpostcss set size:2356136 disposed:false
+154 silly fetch manifest @types/node@latest
+155 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+156 http fetch GET https://registry.npmjs.org/@types%2fnode attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+157 http fetch GET https://registry.npmjs.org/@types%2fnode attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+158 http fetch GET https://registry.npmjs.org/@types%2fnode attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+159 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 70973ms (cache stale)
+160 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:11047915 disposed:false
+161 silly fetch manifest @types/sanitize-html@latest
+162 silly packumentCache full:https://registry.npmjs.org/@types%2fsanitize-html cache-miss
+163 http fetch GET https://registry.npmjs.org/@types%2fsanitize-html attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+164 http fetch GET https://registry.npmjs.org/@types%2fsanitize-html attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+165 http fetch GET https://registry.npmjs.org/@types%2fsanitize-html attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+166 http fetch GET 200 https://registry.npmjs.org/@types%2fsanitize-html 70231ms (cache stale)
+167 silly packumentCache full:https://registry.npmjs.org/@types%2fsanitize-html set size:126397 disposed:false
+168 silly fetch manifest eslint@latest
+169 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+170 http fetch GET https://registry.npmjs.org/eslint attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+171 http fetch GET https://registry.npmjs.org/eslint attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+172 http fetch GET https://registry.npmjs.org/eslint attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+173 http fetch GET 200 https://registry.npmjs.org/eslint 70250ms (cache stale)
+174 silly packumentCache full:https://registry.npmjs.org/eslint set size:2011545 disposed:false
+175 silly fetch manifest jiti@*
+176 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+177 http fetch GET https://registry.npmjs.org/jiti attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+178 http fetch GET https://registry.npmjs.org/jiti attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+179 http fetch GET https://registry.npmjs.org/jiti attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+180 http fetch GET 200 https://registry.npmjs.org/jiti 70214ms (cache stale)
+181 silly packumentCache full:https://registry.npmjs.org/jiti set size:387989 disposed:false
+182 silly fetch manifest eslint-config-next@latest
+183 silly packumentCache full:https://registry.npmjs.org/eslint-config-next cache-miss
+184 http fetch GET https://registry.npmjs.org/eslint-config-next attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+185 http fetch GET https://registry.npmjs.org/eslint-config-next attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+186 http fetch GET https://registry.npmjs.org/eslint-config-next attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+187 http fetch GET 200 https://registry.npmjs.org/eslint-config-next 70256ms (cache stale)
+188 silly packumentCache full:https://registry.npmjs.org/eslint-config-next set size:6801456 disposed:false
+189 silly fetch manifest typescript@latest
+190 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+191 http fetch GET https://registry.npmjs.org/typescript attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+192 http fetch GET https://registry.npmjs.org/typescript attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+193 http fetch GET https://registry.npmjs.org/typescript attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+194 http fetch GET 200 https://registry.npmjs.org/typescript 70236ms (cache stale)
+195 silly packumentCache full:https://registry.npmjs.org/typescript set size:15410956 disposed:false
+196 silly fetch manifest tailwindcss@latest
+197 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+198 http fetch GET https://registry.npmjs.org/tailwindcss attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+199 http fetch GET https://registry.npmjs.org/tailwindcss attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+200 http fetch GET https://registry.npmjs.org/tailwindcss attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+201 http fetch GET 200 https://registry.npmjs.org/tailwindcss 70272ms (cache stale)
+202 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:10678571 disposed:false
+203 silly placeDep ROOT @supabase/ssr@ OK for: tiempo-con-enrique@0.1.0 want: latest
+204 silly placeDep ROOT @supabase/supabase-js@ OK for: tiempo-con-enrique@0.1.0 want: latest
+205 silly placeDep ROOT @tailwindcss/postcss@4.3.1 OK for: tiempo-con-enrique@0.1.0 want: latest
+206 silly placeDep ROOT @tiptap/core@ OK for: tiempo-con-enrique@0.1.0 want: latest
+207 silly placeDep ROOT @tiptap/extension-link@ OK for: tiempo-con-enrique@0.1.0 want: latest
+208 silly placeDep ROOT @tiptap/extension-text-style@ OK for: tiempo-con-enrique@0.1.0 want: latest
+209 silly placeDep ROOT @tiptap/react@3.27.1 OK for: tiempo-con-enrique@0.1.0 want: latest
+210 silly placeDep ROOT @types/react@19.2.17 OK for: @tiptap/react@3.27.1 want: ^17.0.0 || ^18.0.0 || ^19.0.0
+211 silly placeDep ROOT @types/react-dom@19.2.3 OK for: @tiptap/react@3.27.1 want: ^17.0.0 || ^18.0.0 || ^19.0.0
+212 silly placeDep ROOT react@19.2.7 OK for: @tiptap/react@3.27.1 want: ^17.0.0 || ^18.0.0 || ^19.0.0
+213 silly placeDep ROOT react-dom@19.2.7 OK for: @tiptap/react@3.27.1 want: ^17.0.0 || ^18.0.0 || ^19.0.0
+214 silly placeDep ROOT @tiptap/core@3.27.1 REPLACE for: @tiptap/react@3.27.1 want: 3.27.1
+215 silly placeDep ROOT @tiptap/pm@3.27.1 OK for: @tiptap/core@3.27.1 want: 3.27.1
+216 silly placeDep ROOT @tiptap/starter-kit@3.27.1 OK for: tiempo-con-enrique@0.1.0 want: latest
+217 silly placeDep ROOT @types/node@25.9.3 OK for: tiempo-con-enrique@0.1.0 want: latest
+218 silly placeDep ROOT @types/sanitize-html@2.16.1 OK for: tiempo-con-enrique@0.1.0 want: latest
+219 silly placeDep ROOT clsx@2.1.1 OK for: tiempo-con-enrique@0.1.0 want: latest
+220 silly placeDep ROOT eslint@10.5.0 OK for: tiempo-con-enrique@0.1.0 want: latest
+221 silly placeDep ROOT eslint-config-next@16.2.9 OK for: tiempo-con-enrique@0.1.0 want: latest
+222 silly placeDep ROOT next@16.2.9 OK for: tiempo-con-enrique@0.1.0 want: latest
+223 silly placeDep ROOT sanitize-html@2.17.5 OK for: tiempo-con-enrique@0.1.0 want: latest
+224 silly placeDep ROOT tailwindcss@4.3.1 OK for: tiempo-con-enrique@0.1.0 want: latest
+225 silly placeDep ROOT typescript@6.0.3 OK for: tiempo-con-enrique@0.1.0 want: latest
+226 silly fetch manifest postcss@8.5.15
+227 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+228 silly fetch manifest tailwindcss@4.3.1
+229 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+230 silly fetch manifest @alloc/quick-lru@^5.2.0
+231 silly packumentCache full:https://registry.npmjs.org/@alloc%2fquick-lru cache-miss
+232 silly fetch manifest @tailwindcss/node@4.3.1
+233 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fnode cache-miss
+234 silly fetch manifest @tailwindcss/oxide@4.3.1
+235 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide cache-miss
+236 silly fetch manifest @types/use-sync-external-store@^0.0.6
+237 silly packumentCache full:https://registry.npmjs.org/@types%2fuse-sync-external-store cache-miss
+238 silly fetch manifest fast-equals@^5.3.3
+239 silly packumentCache full:https://registry.npmjs.org/fast-equals cache-miss
+240 http fetch GET https://registry.npmjs.org/postcss attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+241 http fetch GET https://registry.npmjs.org/tailwindcss attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+242 http fetch GET https://registry.npmjs.org/@alloc%2fquick-lru attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+243 http fetch GET https://registry.npmjs.org/@types%2fuse-sync-external-store attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+244 http fetch GET https://registry.npmjs.org/@tailwindcss%2fnode attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+245 http fetch GET https://registry.npmjs.org/fast-equals attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+246 http fetch GET https://registry.npmjs.org/@tailwindcss%2foxide attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+247 http fetch GET https://registry.npmjs.org/postcss attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+248 http fetch GET https://registry.npmjs.org/tailwindcss attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+249 http fetch GET https://registry.npmjs.org/@alloc%2fquick-lru attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+250 http fetch GET https://registry.npmjs.org/@tailwindcss%2fnode attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+251 http fetch GET https://registry.npmjs.org/@types%2fuse-sync-external-store attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+252 http fetch GET https://registry.npmjs.org/fast-equals attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+253 http fetch GET https://registry.npmjs.org/@tailwindcss%2foxide attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+254 http fetch GET https://registry.npmjs.org/postcss attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+255 http fetch GET https://registry.npmjs.org/tailwindcss attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+256 http fetch GET https://registry.npmjs.org/@alloc%2fquick-lru attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+257 http fetch GET https://registry.npmjs.org/@tailwindcss%2fnode attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+258 http fetch GET https://registry.npmjs.org/@types%2fuse-sync-external-store attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+259 http fetch GET https://registry.npmjs.org/fast-equals attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+260 http fetch GET 200 https://registry.npmjs.org/@alloc%2fquick-lru 70254ms (cache stale)
+261 silly packumentCache full:https://registry.npmjs.org/@alloc%2fquick-lru set size:7269 disposed:false
+262 silly fetch manifest use-sync-external-store@^1.4.0
+263 silly packumentCache full:https://registry.npmjs.org/use-sync-external-store cache-miss
+264 http fetch GET 200 https://registry.npmjs.org/postcss 70260ms (cache stale)
+265 silly packumentCache full:https://registry.npmjs.org/postcss set size:723316 disposed:false
+266 silly fetch manifest @tiptap/extension-floating-menu@^3.27.1
+267 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-floating-menu cache-miss
+268 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fnode 70277ms (cache stale)
+269 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fnode set size:2222682 disposed:false
+270 silly fetch manifest @tiptap/extension-bubble-menu@^3.27.1
+271 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-bubble-menu cache-miss
+272 http fetch GET 200 https://registry.npmjs.org/@types%2fuse-sync-external-store 70293ms (cache stale)
+273 silly packumentCache full:https://registry.npmjs.org/@types%2fuse-sync-external-store set size:14540 disposed:false
+274 silly fetch manifest prosemirror-changeset@^2.3.0
+275 silly packumentCache full:https://registry.npmjs.org/prosemirror-changeset cache-miss
+276 http fetch GET 200 https://registry.npmjs.org/tailwindcss 70317ms (cache stale)
+277 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:10678571 disposed:false
+278 silly fetch manifest prosemirror-commands@^1.6.2
+279 silly packumentCache full:https://registry.npmjs.org/prosemirror-commands cache-miss
+280 http fetch GET 200 https://registry.npmjs.org/fast-equals 70386ms (cache stale)
+281 silly packumentCache full:https://registry.npmjs.org/fast-equals set size:341560 disposed:false
+282 silly fetch manifest prosemirror-dropcursor@^1.8.1
+283 silly packumentCache full:https://registry.npmjs.org/prosemirror-dropcursor cache-miss
+284 http fetch GET https://registry.npmjs.org/@tailwindcss%2foxide attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+285 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide 70428ms (cache stale)
+286 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide set size:4559534 disposed:false
+287 silly fetch manifest prosemirror-gapcursor@^1.3.2
+288 silly packumentCache full:https://registry.npmjs.org/prosemirror-gapcursor cache-miss
+289 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-floating-menu attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+290 http fetch GET https://registry.npmjs.org/use-sync-external-store attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+291 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-bubble-menu attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+292 http fetch GET https://registry.npmjs.org/prosemirror-changeset attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+293 http fetch GET https://registry.npmjs.org/prosemirror-commands attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+294 http fetch GET https://registry.npmjs.org/prosemirror-dropcursor attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+295 http fetch GET https://registry.npmjs.org/prosemirror-gapcursor attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+296 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-floating-menu attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+297 http fetch GET https://registry.npmjs.org/use-sync-external-store attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+298 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-bubble-menu attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+299 http fetch GET https://registry.npmjs.org/prosemirror-changeset attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+300 http fetch GET https://registry.npmjs.org/prosemirror-dropcursor attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+301 http fetch GET https://registry.npmjs.org/prosemirror-commands attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+302 http fetch GET https://registry.npmjs.org/prosemirror-gapcursor attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+303 http fetch GET https://registry.npmjs.org/prosemirror-changeset attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+304 http fetch GET https://registry.npmjs.org/use-sync-external-store attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+305 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-floating-menu attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+306 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-bubble-menu attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+307 http fetch GET https://registry.npmjs.org/prosemirror-dropcursor attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+308 http fetch GET https://registry.npmjs.org/prosemirror-commands attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+309 http fetch GET 200 https://registry.npmjs.org/prosemirror-changeset 70381ms (cache stale)
+310 silly packumentCache full:https://registry.npmjs.org/prosemirror-changeset set size:68893 disposed:false
+311 silly fetch manifest prosemirror-history@^1.4.1
+312 silly packumentCache full:https://registry.npmjs.org/prosemirror-history cache-miss
+313 http fetch GET 200 https://registry.npmjs.org/@tiptap%2fextension-floating-menu 70410ms (cache stale)
+314 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-floating-menu set size:886288 disposed:false
+315 silly fetch manifest prosemirror-inputrules@^1.4.0
+316 silly packumentCache full:https://registry.npmjs.org/prosemirror-inputrules cache-miss
+317 http fetch GET 200 https://registry.npmjs.org/@tiptap%2fextension-bubble-menu 70397ms (cache stale)
+318 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-bubble-menu set size:898423 disposed:false
+319 silly fetch manifest prosemirror-keymap@^1.2.3
+320 silly packumentCache full:https://registry.npmjs.org/prosemirror-keymap cache-miss
+321 http fetch GET 200 https://registry.npmjs.org/prosemirror-dropcursor 70304ms (cache stale)
+322 silly packumentCache full:https://registry.npmjs.org/prosemirror-dropcursor set size:78033 disposed:false
+323 silly fetch manifest prosemirror-model@^1.25.7
+324 silly packumentCache full:https://registry.npmjs.org/prosemirror-model cache-miss
+325 http fetch GET 200 https://registry.npmjs.org/use-sync-external-store 70450ms (cache stale)
+326 silly packumentCache full:https://registry.npmjs.org/use-sync-external-store set size:4745855 disposed:false
+327 silly fetch manifest prosemirror-schema-list@^1.5.0
+328 silly packumentCache full:https://registry.npmjs.org/prosemirror-schema-list cache-miss
+329 http fetch GET https://registry.npmjs.org/prosemirror-gapcursor attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+330 http fetch GET 200 https://registry.npmjs.org/prosemirror-commands 70359ms (cache stale)
+331 silly packumentCache full:https://registry.npmjs.org/prosemirror-commands set size:113565 disposed:false
+332 silly fetch manifest prosemirror-state@^1.4.4
+333 silly packumentCache full:https://registry.npmjs.org/prosemirror-state cache-miss
+334 http fetch GET 200 https://registry.npmjs.org/prosemirror-gapcursor 70286ms (cache stale)
+335 silly packumentCache full:https://registry.npmjs.org/prosemirror-gapcursor set size:60309 disposed:false
+336 silly fetch manifest prosemirror-tables@^1.8.0
+337 silly packumentCache full:https://registry.npmjs.org/prosemirror-tables cache-miss
+338 http fetch GET https://registry.npmjs.org/prosemirror-inputrules attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+339 http fetch GET https://registry.npmjs.org/prosemirror-keymap attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+340 http fetch GET https://registry.npmjs.org/prosemirror-history attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+341 http fetch GET https://registry.npmjs.org/prosemirror-schema-list attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+342 http fetch GET https://registry.npmjs.org/prosemirror-model attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+343 http fetch GET https://registry.npmjs.org/prosemirror-state attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+344 http fetch GET https://registry.npmjs.org/prosemirror-tables attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+345 http fetch GET https://registry.npmjs.org/prosemirror-inputrules attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+346 http fetch GET https://registry.npmjs.org/prosemirror-keymap attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+347 http fetch GET https://registry.npmjs.org/prosemirror-history attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+348 http fetch GET https://registry.npmjs.org/prosemirror-model attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+349 http fetch GET https://registry.npmjs.org/prosemirror-state attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+350 http fetch GET https://registry.npmjs.org/prosemirror-tables attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+351 http fetch GET https://registry.npmjs.org/prosemirror-schema-list attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+352 http fetch GET https://registry.npmjs.org/prosemirror-keymap attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+353 http fetch GET https://registry.npmjs.org/prosemirror-tables attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+354 http fetch GET https://registry.npmjs.org/prosemirror-state attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+355 http fetch GET https://registry.npmjs.org/prosemirror-schema-list attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+356 http fetch GET https://registry.npmjs.org/prosemirror-model attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+357 http fetch GET https://registry.npmjs.org/prosemirror-inputrules attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+358 http fetch GET https://registry.npmjs.org/prosemirror-history attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+359 http fetch GET 200 https://registry.npmjs.org/prosemirror-schema-list 70843ms (cache stale)
+360 silly packumentCache full:https://registry.npmjs.org/prosemirror-schema-list set size:79148 disposed:false
+361 silly fetch manifest prosemirror-transform@^1.12.0
+362 silly packumentCache full:https://registry.npmjs.org/prosemirror-transform cache-miss
+363 http fetch GET 200 https://registry.npmjs.org/prosemirror-state 70922ms (cache stale)
+364 silly packumentCache full:https://registry.npmjs.org/prosemirror-state set size:77139 disposed:false
+365 silly fetch manifest prosemirror-view@^1.41.8
+366 silly packumentCache full:https://registry.npmjs.org/prosemirror-view cache-miss
+367 http fetch GET 200 https://registry.npmjs.org/prosemirror-keymap 70978ms (cache stale)
+368 silly packumentCache full:https://registry.npmjs.org/prosemirror-keymap set size:58563 disposed:false
+369 silly fetch manifest scheduler@^0.27.0
+370 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+371 http fetch GET 200 https://registry.npmjs.org/prosemirror-tables 70930ms (cache stale)
+372 silly packumentCache full:https://registry.npmjs.org/prosemirror-tables set size:256325 disposed:false
+373 silly fetch manifest csstype@^3.2.2
+374 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+375 http fetch GET 200 https://registry.npmjs.org/prosemirror-inputrules 71019ms (cache stale)
+376 silly packumentCache full:https://registry.npmjs.org/prosemirror-inputrules set size:61584 disposed:false
+377 silly fetch manifest @tiptap/extension-blockquote@^3.27.1
+378 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-blockquote cache-miss
+379 http fetch GET 200 https://registry.npmjs.org/prosemirror-model 71011ms (cache stale)
+380 silly packumentCache full:https://registry.npmjs.org/prosemirror-model set size:202922 disposed:false
+381 silly fetch manifest @tiptap/extension-bold@^3.27.1
+382 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-bold cache-miss
+383 http fetch GET 200 https://registry.npmjs.org/prosemirror-history 71060ms (cache stale)
+384 silly packumentCache full:https://registry.npmjs.org/prosemirror-history set size:69900 disposed:false
+385 silly fetch manifest @tiptap/extension-bullet-list@^3.27.1
+386 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-bullet-list cache-miss
+387 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-blockquote attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+388 http fetch GET https://registry.npmjs.org/scheduler attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+389 http fetch GET https://registry.npmjs.org/csstype attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+390 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-bullet-list attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+391 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-bold attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+392 http fetch GET https://registry.npmjs.org/prosemirror-transform attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+393 http fetch GET https://registry.npmjs.org/prosemirror-view attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+394 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-blockquote attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+395 http fetch GET https://registry.npmjs.org/scheduler attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+396 http fetch GET https://registry.npmjs.org/prosemirror-transform attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+397 http fetch GET https://registry.npmjs.org/csstype attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+398 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-bold attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+399 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-bullet-list attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+400 http fetch GET https://registry.npmjs.org/prosemirror-view attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+401 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-blockquote attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+402 http fetch GET 200 https://registry.npmjs.org/@tiptap%2fextension-blockquote 71109ms (cache stale)
+403 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-blockquote set size:809058 disposed:false
+404 silly fetch manifest @tiptap/extension-code@^3.27.1
+405 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-code cache-miss
+406 http fetch GET https://registry.npmjs.org/scheduler attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+407 http fetch GET 200 https://registry.npmjs.org/scheduler 71331ms (cache stale)
+408 silly packumentCache full:https://registry.npmjs.org/scheduler set size:5556323 disposed:false
+409 silly fetch manifest @tiptap/extension-code-block@^3.27.1
+410 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-code-block cache-miss
+411 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-code attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+412 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-bold attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+413 http fetch GET 200 https://registry.npmjs.org/@tiptap%2fextension-bold 71648ms (cache stale)
+414 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-bold set size:788732 disposed:false
+415 silly fetch manifest @tiptap/extension-document@^3.27.1
+416 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-document cache-miss
+417 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-bullet-list attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+418 http fetch GET https://registry.npmjs.org/prosemirror-transform attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+419 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-code-block attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+420 http fetch GET https://registry.npmjs.org/csstype attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+421 http fetch GET 200 https://registry.npmjs.org/prosemirror-transform 71977ms (cache stale)
+422 silly packumentCache full:https://registry.npmjs.org/prosemirror-transform set size:165710 disposed:false
+423 silly fetch manifest @tiptap/extension-dropcursor@^3.27.1
+424 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-dropcursor cache-miss
+425 http fetch GET 200 https://registry.npmjs.org/@tiptap%2fextension-bullet-list 71890ms (cache stale)
+426 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-bullet-list set size:813106 disposed:false
+427 silly fetch manifest @tiptap/extension-gapcursor@^3.27.1
+428 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-gapcursor cache-miss
+429 http fetch GET 200 https://registry.npmjs.org/csstype 71954ms (cache stale)
+430 silly packumentCache full:https://registry.npmjs.org/csstype set size:274189 disposed:false
+431 silly fetch manifest @tiptap/extension-hard-break@^3.27.1
+432 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-hard-break cache-miss
+433 http fetch GET https://registry.npmjs.org/prosemirror-view attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+434 http fetch GET 200 https://registry.npmjs.org/prosemirror-view 72086ms (cache stale)
+435 silly packumentCache full:https://registry.npmjs.org/prosemirror-view set size:723196 disposed:false
+436 silly fetch manifest @tiptap/extension-heading@^3.27.1
+437 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-heading cache-miss
+438 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-document attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+439 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-gapcursor attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+440 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-dropcursor attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+441 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-hard-break attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+442 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-heading attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+443 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-code attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+444 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-code-block attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+445 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-document attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+446 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-gapcursor attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+447 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-dropcursor attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+448 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-hard-break attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+449 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-heading attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
