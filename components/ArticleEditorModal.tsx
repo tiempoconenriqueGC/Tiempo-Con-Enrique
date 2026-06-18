@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useEffect, useRef, useState } from "react";
+import { FormEvent, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import {
   createArticleAction,
@@ -17,7 +17,6 @@ import type {
 } from "@/types/article";
 
 type ArticleEditorModalProps = {
-  open: boolean;
   mode: "create" | "edit";
   article?: Article | null;
   onClose: () => void;
@@ -41,45 +40,20 @@ function getSafeExtension(file: File) {
 }
 
 export function ArticleEditorModal({
-  open,
   mode,
   article,
   onClose
 }: ArticleEditorModalProps) {
   const router = useRouter();
   const pathname = usePathname();
-  const draftKeyRef = useRef<string>(crypto.randomUUID());
-  const [title, setTitle] = useState("");
-  const [excerpt, setExcerpt] = useState("");
-  const [content, setContent] = useState("");
-  const [images, setImages] = useState<EditableImage[]>([]);
+  const draftKeyRef = useRef<string>(article?.id ?? crypto.randomUUID());
+  const [title, setTitle] = useState(article?.title ?? "");
+  const [excerpt, setExcerpt] = useState(article?.excerpt ?? "");
+  const [content, setContent] = useState(article?.content ?? "");
+  const [images, setImages] = useState<EditableImage[]>(existingImages(article));
   const [removedImageIds, setRemovedImageIds] = useState<string[]>([]);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    if (!open) {
-      return;
-    }
-
-    setError(null);
-    setRemovedImageIds([]);
-
-    if (mode === "edit" && article) {
-      setTitle(article.title);
-      setExcerpt(article.excerpt);
-      setContent(article.content);
-      setImages(existingImages(article));
-      draftKeyRef.current = article.id;
-      return;
-    }
-
-    setTitle("");
-    setExcerpt("");
-    setContent("");
-    setImages([]);
-    draftKeyRef.current = crypto.randomUUID();
-  }, [article, mode, open]);
 
   function closeModal() {
     images.forEach((image) => {
@@ -236,10 +210,6 @@ export function ArticleEditorModal({
     } finally {
       setSaving(false);
     }
-  }
-
-  if (!open) {
-    return null;
   }
 
   return (

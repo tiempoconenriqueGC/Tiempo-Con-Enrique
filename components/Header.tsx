@@ -12,7 +12,7 @@ export function Header({ userEmail, isAdmin, compact = false }: HeaderProps) {
   return (
     <header className="mx-auto w-full max-w-5xl px-5 pt-8 sm:px-8 sm:pt-12">
       <div className="flex items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-3">
+        <Link href="/" className="flex min-w-0 items-center gap-3">
           <Image
             src="/logo-tce.png"
             alt=""
@@ -21,7 +21,7 @@ export function Header({ userEmail, isAdmin, compact = false }: HeaderProps) {
             className="h-9 w-9 rounded-full object-cover grayscale"
             priority
           />
-          <span className="font-mono text-xs uppercase tracking-[0.22em] text-muted">
+          <span className="hidden font-mono text-xs uppercase tracking-[0.22em] text-muted sm:inline">
             Noticias meteorológicas
           </span>
         </Link>

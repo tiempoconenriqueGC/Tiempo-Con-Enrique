@@ -21,12 +21,13 @@ export function ArticleDetailAdmin({ article }: ArticleDetailAdminProps) {
         Editar
       </button>
 
-      <ArticleEditorModal
-        open={open}
-        mode="edit"
-        article={article}
-        onClose={() => setOpen(false)}
-      />
+      {open ? (
+        <ArticleEditorModal
+          mode="edit"
+          article={article}
+          onClose={() => setOpen(false)}
+        />
+      ) : null}
     </>
   );
 }

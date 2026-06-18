@@ -1,0 +1,31 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.9.0
+2 info using node@v24.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique\.npmrc
+5 silly config load:file:C:\Users\andre\.npmrc
+6 silly config load:file:C:\Users\andre\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm view next version
+8 verbose argv "view" "next" "version" "--cache" ".npm-cache" "--fetch-timeout" "60000" "--fetch-retries" "0" "--loglevel" "verbose"
+9 verbose logfile logs-max:10 dir:C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique\.npm-cache\_logs\2026-06-18T20_50_32_348Z-
+10 verbose logfile C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique\.npm-cache\_logs\2026-06-18T20_50_32_348Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET https://registry.npmjs.org/next attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+13 verbose type system
+14 verbose stack FetchError: request to https://registry.npmjs.org/next failed, reason: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca
+14 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+14 verbose stack     at ClientRequest.emit (node:events:508:28)
+14 verbose stack     at emitErrorEvent (node:_http_client:108:11)
+14 verbose stack     at _destroy (node:_http_client:963:9)
+14 verbose stack     at onSocketNT (node:_http_client:983:5)
+14 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+15 error code UNABLE_TO_VERIFY_LEAF_SIGNATURE
+16 error errno UNABLE_TO_VERIFY_LEAF_SIGNATURE
+17 error request to https://registry.npmjs.org/next failed, reason: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca
+18 verbose cwd C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique
+19 verbose os Windows_NT 10.0.26200
+20 verbose node v24.14.0
+21 verbose npm  v11.9.0
+22 verbose exit 1
+23 verbose code 1
+24 error A complete log of this run can be found in: C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique\.npm-cache\_logs\2026-06-18T20_50_32_348Z-debug-0.log

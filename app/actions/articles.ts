@@ -6,8 +6,7 @@ import { createClient } from "@/lib/supabase/server";
 import { hasSupabaseEnv } from "@/lib/supabase/env";
 import type {
   ArticleActionResult,
-  ArticleMutationPayload,
-  UploadedArticleImage
+  ArticleMutationPayload
 } from "@/types/article";
 
 type SupabaseClient = Awaited<ReturnType<typeof createClient>>;

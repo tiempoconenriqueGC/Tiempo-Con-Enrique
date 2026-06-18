@@ -2,7 +2,7 @@
 
 import { Extension } from "@tiptap/core";
 import Link from "@tiptap/extension-link";
-import TextStyle from "@tiptap/extension-text-style";
+import { TextStyle } from "@tiptap/extension-text-style";
 import { EditorContent, useEditor } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import { useEffect } from "react";
@@ -78,7 +78,7 @@ export function RichTextEditor({ value, onChange }: RichTextEditorProps) {
 
   useEffect(() => {
     if (editor && value !== editor.getHTML()) {
-      editor.commands.setContent(value || "", false);
+      editor.commands.setContent(value || "", { emitUpdate: false });
     }
   }, [editor, value]);
 

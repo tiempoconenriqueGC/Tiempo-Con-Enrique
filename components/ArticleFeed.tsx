@@ -37,17 +37,16 @@ export function ArticleFeed({ articles, isAdmin }: ArticleFeedProps) {
       {isAdmin ? (
         <>
           <AdminFloatingButton onClick={() => setCreating(true)} />
-          <ArticleEditorModal
-            open={creating}
-            mode="create"
-            onClose={() => setCreating(false)}
-          />
-          <ArticleEditorModal
-            open={Boolean(editingArticle)}
-            mode="edit"
-            article={editingArticle}
-            onClose={() => setEditingArticle(null)}
-          />
+          {creating ? (
+            <ArticleEditorModal mode="create" onClose={() => setCreating(false)} />
+          ) : null}
+          {editingArticle ? (
+            <ArticleEditorModal
+              mode="edit"
+              article={editingArticle}
+              onClose={() => setEditingArticle(null)}
+            />
+          ) : null}
         </>
       ) : null}
     </>

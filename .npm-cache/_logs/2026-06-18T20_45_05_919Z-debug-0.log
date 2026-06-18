@@ -1,0 +1,151 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.9.0
+2 info using node@v24.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique\.npmrc
+5 silly config load:file:C:\Users\andre\.npmrc
+6 silly config load:file:C:\Users\andre\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--prefer-online" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique\.npm-cache\_logs\2026-06-18T20_45_05_919Z-
+10 verbose logfile C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique\.npm-cache\_logs\2026-06-18T20_45_05_919Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest @supabase/ssr@latest
+15 silly packumentCache full:https://registry.npmjs.org/@supabase%2fssr cache-miss
+16 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+17 http fetch GET https://registry.npmjs.org/@supabase%2fssr attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+18 http fetch GET https://registry.npmjs.org/@supabase%2fssr attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+19 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+20 http fetch GET https://registry.npmjs.org/@supabase%2fssr attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+21 silly fetch manifest @supabase/supabase-js@latest
+22 silly packumentCache full:https://registry.npmjs.org/@supabase%2fsupabase-js cache-miss
+23 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+24 http fetch GET https://registry.npmjs.org/@supabase%2fsupabase-js attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+25 http fetch GET https://registry.npmjs.org/@supabase%2fsupabase-js attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+26 http fetch GET https://registry.npmjs.org/@supabase%2fsupabase-js attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+27 silly fetch manifest @tiptap/core@latest
+28 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fcore cache-miss
+29 http fetch GET https://registry.npmjs.org/@tiptap%2fcore attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+30 http fetch GET https://registry.npmjs.org/@tiptap%2fcore attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+31 http fetch GET https://registry.npmjs.org/@tiptap%2fcore attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+32 silly fetch manifest @tiptap/extension-link@latest
+33 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-link cache-miss
+34 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-link attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+35 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-link attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+36 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-link attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+37 silly fetch manifest @tiptap/extension-text-style@latest
+38 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fextension-text-style cache-miss
+39 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-text-style attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+40 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-text-style attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+41 http fetch GET https://registry.npmjs.org/@tiptap%2fextension-text-style attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+42 silly fetch manifest @tiptap/react@latest
+43 silly packumentCache full:https://registry.npmjs.org/@tiptap%2freact cache-miss
+44 http fetch GET https://registry.npmjs.org/@tiptap%2freact attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+45 http fetch GET https://registry.npmjs.org/@tiptap%2freact attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+46 http fetch GET https://registry.npmjs.org/@tiptap%2freact attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+47 http fetch GET 200 https://registry.npmjs.org/@tiptap%2freact 70520ms (cache stale)
+48 silly packumentCache full:https://registry.npmjs.org/@tiptap%2freact set size:1108230 disposed:false
+49 silly fetch manifest @tiptap/core@latest
+50 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fcore cache-miss
+51 http fetch GET https://registry.npmjs.org/@tiptap%2fcore attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+52 http fetch GET https://registry.npmjs.org/@tiptap%2fcore attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+53 http fetch GET https://registry.npmjs.org/@tiptap%2fcore attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+54 http fetch GET 200 https://registry.npmjs.org/@tiptap%2fcore 70235ms (cache stale)
+55 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fcore set size:1317501 disposed:false
+56 silly fetch manifest @tiptap/pm@3.27.1
+57 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fpm cache-miss
+58 http fetch GET https://registry.npmjs.org/@tiptap%2fpm attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+59 http fetch GET https://registry.npmjs.org/@tiptap%2fpm attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+60 http fetch GET https://registry.npmjs.org/@tiptap%2fpm attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+61 http fetch GET 200 https://registry.npmjs.org/@tiptap%2fpm 70293ms (cache stale)
+62 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fpm set size:1641023 disposed:false
+63 silly fetch manifest @types/react@latest
+64 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+65 http fetch GET https://registry.npmjs.org/@types%2freact attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+66 http fetch GET https://registry.npmjs.org/@types%2freact attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+67 http fetch GET https://registry.npmjs.org/@types%2freact attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+68 http fetch GET 200 https://registry.npmjs.org/@types%2freact 70239ms (cache stale)
+69 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2632776 disposed:false
+70 silly fetch manifest @types/react-dom@latest
+71 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+72 http fetch GET https://registry.npmjs.org/@types%2freact-dom attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+73 http fetch GET https://registry.npmjs.org/@types%2freact-dom attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+74 http fetch GET https://registry.npmjs.org/@types%2freact-dom attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+75 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 70245ms (cache stale)
+76 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:429026 disposed:false
+77 silly fetch manifest react@latest
+78 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+79 http fetch GET https://registry.npmjs.org/react attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+80 http fetch GET https://registry.npmjs.org/react attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+81 http fetch GET https://registry.npmjs.org/react attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+82 http fetch GET 200 https://registry.npmjs.org/react 70372ms (cache stale)
+83 silly packumentCache full:https://registry.npmjs.org/react set size:6720097 disposed:false
+84 silly fetch manifest react-dom@latest
+85 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+86 http fetch GET https://registry.npmjs.org/react-dom attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+87 http fetch GET https://registry.npmjs.org/react-dom attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+88 http fetch GET https://registry.npmjs.org/react-dom attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+89 http fetch GET 200 https://registry.npmjs.org/react-dom 70209ms (cache stale)
+90 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8981640 disposed:false
+91 silly fetch manifest @tiptap/starter-kit@latest
+92 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fstarter-kit cache-miss
+93 http fetch GET https://registry.npmjs.org/@tiptap%2fstarter-kit attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+94 http fetch GET https://registry.npmjs.org/@tiptap%2fstarter-kit attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+95 http fetch GET https://registry.npmjs.org/@tiptap%2fstarter-kit attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+96 http fetch GET 200 https://registry.npmjs.org/@tiptap%2fstarter-kit 70252ms (cache stale)
+97 silly packumentCache full:https://registry.npmjs.org/@tiptap%2fstarter-kit set size:1566783 disposed:false
+98 silly fetch manifest clsx@latest
+99 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+100 http fetch GET https://registry.npmjs.org/clsx attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+101 http fetch GET https://registry.npmjs.org/clsx attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+102 http fetch GET https://registry.npmjs.org/clsx attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+103 http fetch GET 200 https://registry.npmjs.org/clsx 70248ms (cache stale)
+104 silly packumentCache full:https://registry.npmjs.org/clsx set size:42506 disposed:false
+105 silly fetch manifest next@latest
+106 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+107 http fetch GET https://registry.npmjs.org/next attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+108 http fetch GET https://registry.npmjs.org/next attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+109 http fetch GET https://registry.npmjs.org/next attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+110 http fetch GET 200 https://registry.npmjs.org/next 70447ms (cache stale)
+111 silly packumentCache full:https://registry.npmjs.org/next set size:30832722 disposed:false
+112 silly fetch manifest @opentelemetry/api@^1.1.0
+113 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+114 http fetch GET https://registry.npmjs.org/@opentelemetry%2fapi attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+115 http fetch GET https://registry.npmjs.org/@opentelemetry%2fapi attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+116 http fetch GET https://registry.npmjs.org/@opentelemetry%2fapi attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+117 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 70306ms (cache stale)
+118 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:272967 disposed:false
+119 silly fetch manifest @playwright/test@^1.51.1
+120 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+121 http fetch GET https://registry.npmjs.org/@playwright%2ftest attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+122 http fetch GET https://registry.npmjs.org/@playwright%2ftest attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+123 http fetch GET https://registry.npmjs.org/@playwright%2ftest attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+124 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 71049ms (cache stale)
+125 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:9236398 disposed:false
+126 silly fetch manifest babel-plugin-react-compiler@*
+127 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler cache-miss
+128 http fetch GET https://registry.npmjs.org/babel-plugin-react-compiler attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+129 http fetch GET https://registry.npmjs.org/babel-plugin-react-compiler attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+130 http fetch GET https://registry.npmjs.org/babel-plugin-react-compiler attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+131 http fetch GET 200 https://registry.npmjs.org/babel-plugin-react-compiler 70480ms (cache stale)
+132 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler set size:1356999 disposed:false
+133 silly fetch manifest sass@^1.3.0
+134 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+135 http fetch GET https://registry.npmjs.org/sass attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+136 http fetch GET https://registry.npmjs.org/sass attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+137 http fetch GET https://registry.npmjs.org/sass attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+138 http fetch GET 200 https://registry.npmjs.org/sass 71455ms (cache stale)
+139 silly packumentCache full:https://registry.npmjs.org/sass set size:730445 disposed:false
+140 silly fetch manifest sanitize-html@latest
+141 silly packumentCache full:https://registry.npmjs.org/sanitize-html cache-miss
+142 http fetch GET https://registry.npmjs.org/sanitize-html attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+143 http fetch GET https://registry.npmjs.org/sanitize-html attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+144 http fetch GET https://registry.npmjs.org/sanitize-html attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+145 http fetch GET 200 https://registry.npmjs.org/sanitize-html 70425ms (cache stale)
+146 silly packumentCache full:https://registry.npmjs.org/sanitize-html set size:375196 disposed:false
+147 silly fetch manifest @tailwindcss/postcss@latest
+148 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fpostcss cache-miss
+149 http fetch GET https://registry.npmjs.org/@tailwindcss%2fpostcss attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+150 http fetch GET https://registry.npmjs.org/@tailwindcss%2fpostcss attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
