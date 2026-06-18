@@ -1,0 +1,36 @@
+{
+  "name": "tiempo-con-enrique",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@supabase/ssr": "latest",
+    "@supabase/supabase-js": "latest",
+    "@tiptap/core": "latest",
+    "@tiptap/extension-link": "latest",
+    "@tiptap/extension-text-style": "latest",
+    "@tiptap/react": "latest",
+    "@tiptap/starter-kit": "latest",
+    "clsx": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "sanitize-html": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/sanitize-html": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
