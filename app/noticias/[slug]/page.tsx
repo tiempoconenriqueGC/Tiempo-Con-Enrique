@@ -79,7 +79,7 @@ export default async function ArticlePage({ params }: PageProps) {
               fill
               priority
               sizes="(min-width: 768px) 768px, 100vw"
-              className="object-cover grayscale"
+              className="object-cover"
             />
           </div>
         ) : null}
@@ -101,7 +101,7 @@ export default async function ArticlePage({ params }: PageProps) {
                   alt=""
                   fill
                   sizes="(min-width: 768px) 368px, 100vw"
-                  className="object-cover grayscale"
+                  className="object-cover"
                 />
               </div>
             ))}

@@ -77,7 +77,7 @@ export function ImageUploader({
                 alt=""
                 fill
                 sizes="160px"
-                className="object-cover grayscale"
+                className="object-cover"
                 unoptimized={image.previewUrl.startsWith("blob:")}
               />
               <div className="absolute left-2 top-2 bg-white/90 px-2 py-1 font-mono text-[0.65rem] uppercase tracking-[0.14em]">

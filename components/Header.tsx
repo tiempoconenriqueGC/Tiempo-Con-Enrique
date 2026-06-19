@@ -18,7 +18,7 @@ export function Header({ userEmail, isAdmin, compact = false }: HeaderProps) {
             alt=""
             width={36}
             height={36}
-            className="h-9 w-9 rounded-full object-cover grayscale"
+            className="h-9 w-9 rounded-full object-cover"
             priority
           />
           <span className="hidden font-mono text-xs uppercase tracking-[0.22em] text-muted sm:inline">

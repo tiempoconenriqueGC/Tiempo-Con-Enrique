@@ -24,7 +24,7 @@ export function ArticleCard({ article, isAdmin, onEdit }: ArticleCardProps) {
             alt=""
             fill
             sizes="(min-width: 768px) 360px, 100vw"
-            className="object-cover grayscale transition duration-500 hover:scale-[1.02]"
+            className="object-cover transition duration-500 hover:scale-[1.02]"
           />
         ) : (
           <div className="flex h-full items-center justify-center px-6 text-center font-mono text-xs uppercase tracking-[0.2em] text-muted">
