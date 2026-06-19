@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArticleDetailAdmin } from "@/components/ArticleDetailAdmin";
+import { ArticleLikeButton } from "@/components/ArticleLikeButton";
 import { Header } from "@/components/Header";
 import { getArticleBySlug, getCurrentProfile } from "@/lib/articles";
 import { formatArticleDate } from "@/lib/format";
@@ -66,6 +67,15 @@ export default async function ArticlePage({ params }: PageProps) {
               {article.title}
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted">{article.excerpt}</p>
+            <div className="mt-6">
+              <ArticleLikeButton
+                articleId={article.id}
+                slug={article.slug}
+                initialLikesCount={article.likes_count}
+                initialLikedByCurrentUser={article.liked_by_current_user}
+                isAuthenticated={auth.isAuthenticated}
+              />
+            </div>
           </div>
 
           {auth.isAdmin ? <ArticleDetailAdmin article={article} /> : null}

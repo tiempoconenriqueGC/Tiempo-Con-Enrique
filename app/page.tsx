@@ -21,7 +21,11 @@ export default async function Home() {
           </div>
         ) : null}
 
-        <ArticleFeed articles={articlesResult.articles} isAdmin={auth.isAdmin} />
+        <ArticleFeed
+          articles={articlesResult.articles}
+          isAdmin={auth.isAdmin}
+          isAuthenticated={auth.isAuthenticated}
+        />
       </section>
     </main>
   );

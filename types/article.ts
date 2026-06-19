@@ -21,6 +21,8 @@ export type Article = {
   author_id: string | null;
   status: "published" | "draft";
   images: ArticleImage[];
+  likes_count: number;
+  liked_by_current_user: boolean;
 };
 
 export type UploadedArticleImage = {
@@ -42,4 +44,11 @@ export type ArticleActionResult = {
   ok: boolean;
   message?: string;
   slug?: string;
+};
+
+export type ArticleLikeActionResult = {
+  ok: boolean;
+  message?: string;
+  likes_count?: number;
+  liked_by_current_user?: boolean;
 };

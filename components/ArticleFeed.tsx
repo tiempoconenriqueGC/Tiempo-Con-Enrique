@@ -9,9 +9,14 @@ import type { Article } from "@/types/article";
 type ArticleFeedProps = {
   articles: Article[];
   isAdmin: boolean;
+  isAuthenticated: boolean;
 };
 
-export function ArticleFeed({ articles, isAdmin }: ArticleFeedProps) {
+export function ArticleFeed({
+  articles,
+  isAdmin,
+  isAuthenticated
+}: ArticleFeedProps) {
   const [creating, setCreating] = useState(false);
   const [editingArticle, setEditingArticle] = useState<Article | null>(null);
 
@@ -28,6 +33,7 @@ export function ArticleFeed({ articles, isAdmin }: ArticleFeedProps) {
               key={article.id}
               article={article}
               isAdmin={isAdmin}
+              isAuthenticated={isAuthenticated}
               onEdit={setEditingArticle}
             />
           ))}

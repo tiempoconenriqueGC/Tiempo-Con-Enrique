@@ -33,11 +33,21 @@ create table if not exists public.article_images (
   created_at timestamptz not null default now()
 );
 
+create table if not exists public.article_likes (
+  article_id uuid not null references public.articles(id) on delete cascade,
+  user_id uuid not null references auth.users(id) on delete cascade,
+  created_at timestamptz not null default now(),
+  primary key (article_id, user_id)
+);
+
 create index if not exists articles_published_at_idx
   on public.articles (published_at desc);
 
 create index if not exists article_images_article_id_sort_order_idx
   on public.article_images (article_id, sort_order);
+
+create index if not exists article_likes_user_id_idx
+  on public.article_likes (user_id);
 
 create or replace function public.is_admin(user_id uuid default auth.uid())
 returns boolean
@@ -74,9 +84,82 @@ create trigger on_auth_user_created
   after insert on auth.users
   for each row execute function public.handle_new_user();
 
+create or replace function public.get_article_like_summaries(article_ids uuid[])
+returns table (
+  article_id uuid,
+  likes_count bigint,
+  liked_by_current_user boolean
+)
+language sql
+security definer
+set search_path = public
+as $$
+  with requested as (
+    select distinct unnest(article_ids) as article_id
+  )
+  select
+    requested.article_id,
+    count(article_likes.user_id)::bigint as likes_count,
+    coalesce(bool_or(article_likes.user_id = auth.uid()), false) as liked_by_current_user
+  from requested
+  join public.articles
+    on articles.id = requested.article_id
+   and articles.status = 'published'
+  left join public.article_likes
+    on article_likes.article_id = requested.article_id
+  group by requested.article_id;
+$$;
+
+create or replace function public.toggle_article_like(target_article_id uuid)
+returns table (
+  article_id uuid,
+  likes_count bigint,
+  liked_by_current_user boolean
+)
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  current_user_id uuid := auth.uid();
+begin
+  if current_user_id is null then
+    raise exception 'Necesitas iniciar sesion para dar like.';
+  end if;
+
+  if not exists (
+    select 1
+    from public.articles
+    where id = target_article_id
+      and status = 'published'
+  ) then
+    raise exception 'La noticia no existe o no esta publicada.';
+  end if;
+
+  if exists (
+    select 1
+    from public.article_likes
+    where article_likes.article_id = target_article_id
+      and article_likes.user_id = current_user_id
+  ) then
+    delete from public.article_likes
+    where article_likes.article_id = target_article_id
+      and article_likes.user_id = current_user_id;
+  else
+    insert into public.article_likes (article_id, user_id)
+    values (target_article_id, current_user_id);
+  end if;
+
+  return query
+    select *
+    from public.get_article_like_summaries(array[target_article_id]);
+end;
+$$;
+
 alter table public.profiles enable row level security;
 alter table public.articles enable row level security;
 alter table public.article_images enable row level security;
+alter table public.article_likes enable row level security;
 
 drop policy if exists "Users can read own profile" on public.profiles;
 create policy "Users can read own profile"
@@ -156,6 +239,38 @@ create policy "Admins can delete article images"
   for delete
   to authenticated
   using (public.is_admin(auth.uid()));
+
+drop policy if exists "Users can read own article likes" on public.article_likes;
+create policy "Users can read own article likes"
+  on public.article_likes
+  for select
+  to authenticated
+  using (user_id = auth.uid() or public.is_admin(auth.uid()));
+
+drop policy if exists "Users can like published articles" on public.article_likes;
+create policy "Users can like published articles"
+  on public.article_likes
+  for insert
+  to authenticated
+  with check (
+    user_id = auth.uid()
+    and exists (
+      select 1
+      from public.articles
+      where articles.id = article_likes.article_id
+        and articles.status = 'published'
+    )
+  );
+
+drop policy if exists "Users can remove own article likes" on public.article_likes;
+create policy "Users can remove own article likes"
+  on public.article_likes
+  for delete
+  to authenticated
+  using (user_id = auth.uid());
+
+grant execute on function public.get_article_like_summaries(uuid[]) to anon, authenticated;
+grant execute on function public.toggle_article_like(uuid) to authenticated;
 
 insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
 values (

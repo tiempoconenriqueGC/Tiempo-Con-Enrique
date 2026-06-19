@@ -2,16 +2,23 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { ArticleLikeButton } from "@/components/ArticleLikeButton";
 import type { Article } from "@/types/article";
 import { formatArticleDate } from "@/lib/format";
 
 type ArticleCardProps = {
   article: Article;
   isAdmin: boolean;
+  isAuthenticated: boolean;
   onEdit: (article: Article) => void;
 };
 
-export function ArticleCard({ article, isAdmin, onEdit }: ArticleCardProps) {
+export function ArticleCard({
+  article,
+  isAdmin,
+  isAuthenticated,
+  onEdit
+}: ArticleCardProps) {
   return (
     <article className="grid gap-5 border-b border-border py-8 sm:grid-cols-[minmax(0,0.9fr)_minmax(0,1.3fr)] sm:gap-8 sm:py-10">
       <Link
@@ -60,13 +67,14 @@ export function ArticleCard({ article, isAdmin, onEdit }: ArticleCardProps) {
           </p>
         </div>
 
-        <div className="flex items-center gap-3">
-          <Link
-            href={`/noticias/${article.slug}`}
-            className="text-sm underline underline-offset-4 transition hover:text-muted"
-          >
-            Leer noticia
-          </Link>
+        <div className="flex flex-wrap items-center gap-3">
+          <ArticleLikeButton
+            articleId={article.id}
+            slug={article.slug}
+            initialLikesCount={article.likes_count}
+            initialLikedByCurrentUser={article.liked_by_current_user}
+            isAuthenticated={isAuthenticated}
+          />
 
           {isAdmin ? (
             <button

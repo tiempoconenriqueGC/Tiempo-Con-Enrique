@@ -2,8 +2,17 @@ import { createClient } from "@/lib/supabase/server";
 import { hasSupabaseEnv } from "@/lib/supabase/env";
 import type { Article, ArticleImage, UserRole } from "@/types/article";
 
-type ArticleRow = Omit<Article, "images"> & {
+type ArticleRow = Omit<
+  Article,
+  "images" | "likes_count" | "liked_by_current_user"
+> & {
   article_images: ArticleImage[] | null;
+};
+
+type ArticleLikeSummary = {
+  article_id: string;
+  likes_count: number | string;
+  liked_by_current_user: boolean;
 };
 
 const ARTICLE_SELECT = `
@@ -43,8 +52,44 @@ function mapArticle(row: ArticleRow): Article {
     updated_at: row.updated_at,
     author_id: row.author_id,
     status: row.status,
-    images
+    images,
+    likes_count: 0,
+    liked_by_current_user: false
   };
+}
+
+async function addLikeSummaries(
+  supabase: Awaited<ReturnType<typeof createClient>>,
+  articles: Article[]
+) {
+  if (articles.length === 0) {
+    return articles;
+  }
+
+  const { data, error } = await supabase.rpc("get_article_like_summaries", {
+    article_ids: articles.map((article) => article.id)
+  });
+
+  if (error || !data) {
+    return articles;
+  }
+
+  const summaries = new Map(
+    (data as ArticleLikeSummary[]).map((summary) => [
+      summary.article_id,
+      {
+        likes_count: Number(summary.likes_count ?? 0),
+        liked_by_current_user: Boolean(summary.liked_by_current_user)
+      }
+    ])
+  );
+
+  return articles.map((article) => ({
+    ...article,
+    likes_count: summaries.get(article.id)?.likes_count ?? 0,
+    liked_by_current_user:
+      summaries.get(article.id)?.liked_by_current_user ?? false
+  }));
 }
 
 export async function getPublishedArticles(): Promise<{
@@ -66,7 +111,9 @@ export async function getPublishedArticles(): Promise<{
     return { articles: [], error: error.message };
   }
 
-  return { articles: (data as ArticleRow[]).map(mapArticle) };
+  const articles = (data as ArticleRow[]).map(mapArticle);
+
+  return { articles: await addLikeSummaries(supabase, articles) };
 }
 
 export async function getArticleBySlug(slug: string): Promise<{
@@ -89,16 +136,23 @@ export async function getArticleBySlug(slug: string): Promise<{
     return { article: null, error: error.message };
   }
 
-  return { article: data ? mapArticle(data as ArticleRow) : null };
+  if (!data) {
+    return { article: null };
+  }
+
+  const [article] = await addLikeSummaries(supabase, [mapArticle(data as ArticleRow)]);
+
+  return { article };
 }
 
 export async function getCurrentProfile(): Promise<{
   userEmail: string | null;
   role: UserRole | null;
   isAdmin: boolean;
+  isAuthenticated: boolean;
 }> {
   if (!hasSupabaseEnv()) {
-    return { userEmail: null, role: null, isAdmin: false };
+    return { userEmail: null, role: null, isAdmin: false, isAuthenticated: false };
   }
 
   const supabase = await createClient();
@@ -107,7 +161,7 @@ export async function getCurrentProfile(): Promise<{
   } = await supabase.auth.getUser();
 
   if (!user) {
-    return { userEmail: null, role: null, isAdmin: false };
+    return { userEmail: null, role: null, isAdmin: false, isAuthenticated: false };
   }
 
   const { data } = await supabase
@@ -121,6 +175,7 @@ export async function getCurrentProfile(): Promise<{
   return {
     userEmail: user.email ?? null,
     role,
-    isAdmin: role === "admin"
+    isAdmin: role === "admin",
+    isAuthenticated: true
   };
 }
