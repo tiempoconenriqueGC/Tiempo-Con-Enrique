@@ -1208,3 +1208,687 @@
 1703 http fetch GET https://registry.npmjs.org/shebang-regex attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
 1704 http fetch GET https://registry.npmjs.org/isexe attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
 1705 http fetch GET https://registry.npmjs.org/shebang-regex attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1706 http fetch GET https://registry.npmjs.org/isexe attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1707 http fetch GET 200 https://registry.npmjs.org/isexe 70836ms (cache stale)
+1708 silly packumentCache full:https://registry.npmjs.org/isexe set size:31756 disposed:false
+1709 http fetch GET https://registry.npmjs.org/shebang-regex attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1710 http fetch GET 200 https://registry.npmjs.org/shebang-regex 71089ms (cache stale)
+1711 silly packumentCache full:https://registry.npmjs.org/shebang-regex set size:9763 disposed:false
+1712 silly placeDep ROOT ms@2.1.3 OK for: debug@4.4.3 want: ^2.1.3
+1713 silly fetch manifest eslint@>=9.0.0
+1714 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+1715 http fetch GET https://registry.npmjs.org/eslint attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1716 http fetch GET https://registry.npmjs.org/eslint attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1717 http fetch GET https://registry.npmjs.org/eslint attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1718 http fetch GET 200 https://registry.npmjs.org/eslint 70581ms (cache stale)
+1719 silly packumentCache full:https://registry.npmjs.org/eslint set size:2011545 disposed:false
+1720 silly fetch manifest typescript@>=3.3.1
+1721 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+1722 http fetch GET https://registry.npmjs.org/typescript attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1723 http fetch GET https://registry.npmjs.org/typescript attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1724 http fetch GET https://registry.npmjs.org/typescript attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1725 http fetch GET 200 https://registry.npmjs.org/typescript 74681ms (cache stale)
+1726 silly packumentCache full:https://registry.npmjs.org/typescript set size:15410956 disposed:false
+1727 silly fetch manifest eslint@^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
+1728 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+1729 http fetch GET https://registry.npmjs.org/eslint attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1730 http fetch GET https://registry.npmjs.org/eslint attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1731 http fetch GET https://registry.npmjs.org/eslint attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1732 http fetch GET 200 https://registry.npmjs.org/eslint 70436ms (cache stale)
+1733 silly packumentCache full:https://registry.npmjs.org/eslint set size:2011545 disposed:false
+1734 silly fetch manifest eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8 || ^9
+1735 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+1736 http fetch GET https://registry.npmjs.org/eslint attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1737 http fetch GET https://registry.npmjs.org/eslint attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1738 http fetch GET https://registry.npmjs.org/eslint attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1739 http fetch GET 200 https://registry.npmjs.org/eslint 70331ms (cache stale)
+1740 silly packumentCache full:https://registry.npmjs.org/eslint set size:2011545 disposed:false
+1741 silly fetch manifest eslint@^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
+1742 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+1743 http fetch GET https://registry.npmjs.org/eslint attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1744 http fetch GET https://registry.npmjs.org/eslint attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1745 http fetch GET https://registry.npmjs.org/eslint attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1746 http fetch GET 200 https://registry.npmjs.org/eslint 70320ms (cache stale)
+1747 silly packumentCache full:https://registry.npmjs.org/eslint set size:2011545 disposed:false
+1748 silly fetch manifest eslint-plugin-import-x@*
+1749 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-import-x cache-miss
+1750 http fetch GET https://registry.npmjs.org/eslint-plugin-import-x attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1751 http fetch GET https://registry.npmjs.org/eslint-plugin-import-x attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1752 http fetch GET https://registry.npmjs.org/eslint-plugin-import-x attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1753 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-import-x 70459ms (cache stale)
+1754 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-import-x set size:270770 disposed:false
+1755 silly fetch manifest @typescript-eslint/utils@^8.56.0
+1756 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils cache-miss
+1757 http fetch GET https://registry.npmjs.org/@typescript-eslint%2futils attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1758 http fetch GET https://registry.npmjs.org/@typescript-eslint%2futils attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1759 http fetch GET https://registry.npmjs.org/@typescript-eslint%2futils attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1760 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2futils 70299ms (cache stale)
+1761 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils set size:10285455 disposed:false
+1762 silly placeDep ROOT @next/eslint-plugin-next@16.2.9 OK for: eslint-config-next@16.2.9 want: 16.2.9
+1763 silly placeDep ROOT eslint-import-resolver-node@0.3.10 OK for: eslint-config-next@16.2.9 want: ^0.3.6
+1764 silly placeDep ROOT eslint-import-resolver-typescript@3.10.1 OK for: eslint-config-next@16.2.9 want: ^3.5.2
+1765 silly placeDep ROOT eslint-plugin-import@2.32.0 OK for: eslint-config-next@16.2.9 want: ^2.32.0
+1766 silly placeDep ROOT eslint@9.39.4 REPLACE for: eslint-plugin-import@2.32.0 want: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8 || ^9
+1767 silly placeDep ROOT eslint-plugin-jsx-a11y@6.10.2 OK for: eslint-config-next@16.2.9 want: ^6.10.0
+1768 silly placeDep ROOT eslint-plugin-react@7.37.5 OK for: eslint-config-next@16.2.9 want: ^7.37.0
+1769 silly placeDep ROOT eslint-plugin-react-hooks@7.1.1 OK for: eslint-config-next@16.2.9 want: ^7.0.0
+1770 silly placeDep ROOT globals@16.4.0 OK for: eslint-config-next@16.2.9 want: 16.4.0
+1771 silly placeDep ROOT typescript-eslint@8.61.1 OK for: eslint-config-next@16.2.9 want: ^8.46.0
+1772 silly fetch manifest fast-glob@3.3.1
+1773 silly packumentCache full:https://registry.npmjs.org/fast-glob cache-miss
+1774 silly fetch manifest debug@^3.2.7
+1775 silly packumentCache full:https://registry.npmjs.org/debug cache-hit
+1776 silly fetch manifest resolve@^2.0.0-next.6
+1777 silly packumentCache full:https://registry.npmjs.org/resolve cache-miss
+1778 silly fetch manifest is-core-module@^2.16.1
+1779 silly packumentCache full:https://registry.npmjs.org/is-core-module cache-miss
+1780 silly fetch manifest tinyglobby@^0.2.13
+1781 silly packumentCache full:https://registry.npmjs.org/tinyglobby cache-miss
+1782 silly fetch manifest stable-hash@^0.0.5
+1783 silly packumentCache full:https://registry.npmjs.org/stable-hash cache-miss
+1784 silly fetch manifest get-tsconfig@^4.10.0
+1785 silly packumentCache full:https://registry.npmjs.org/get-tsconfig cache-miss
+1786 silly fetch manifest is-bun-module@^2.0.0
+1787 silly packumentCache full:https://registry.npmjs.org/is-bun-module cache-miss
+1788 http fetch GET https://registry.npmjs.org/tinyglobby attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1789 http fetch GET https://registry.npmjs.org/resolve attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1790 http fetch GET https://registry.npmjs.org/fast-glob attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1791 http fetch GET https://registry.npmjs.org/is-core-module attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1792 http fetch GET https://registry.npmjs.org/get-tsconfig attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1793 http fetch GET https://registry.npmjs.org/stable-hash attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1794 http fetch GET https://registry.npmjs.org/is-bun-module attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1795 http fetch GET https://registry.npmjs.org/fast-glob attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1796 http fetch GET https://registry.npmjs.org/resolve attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1797 http fetch GET https://registry.npmjs.org/tinyglobby attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1798 http fetch GET https://registry.npmjs.org/get-tsconfig attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1799 http fetch GET https://registry.npmjs.org/stable-hash attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1800 http fetch GET https://registry.npmjs.org/is-core-module attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1801 http fetch GET https://registry.npmjs.org/is-bun-module attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1802 http fetch GET https://registry.npmjs.org/tinyglobby attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1803 http fetch GET https://registry.npmjs.org/resolve attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1804 http fetch GET https://registry.npmjs.org/fast-glob attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1805 http fetch GET 200 https://registry.npmjs.org/resolve 70450ms (cache stale)
+1806 silly packumentCache full:https://registry.npmjs.org/resolve set size:244568 disposed:false
+1807 silly fetch manifest unrs-resolver@^1.6.2
+1808 silly packumentCache full:https://registry.npmjs.org/unrs-resolver cache-miss
+1809 http fetch GET 200 https://registry.npmjs.org/tinyglobby 70521ms (cache stale)
+1810 silly packumentCache full:https://registry.npmjs.org/tinyglobby set size:54291 disposed:false
+1811 silly fetch manifest @nolyfill/is-core-module@1.0.39
+1812 silly packumentCache full:https://registry.npmjs.org/@nolyfill%2fis-core-module cache-miss
+1813 http fetch GET https://registry.npmjs.org/is-core-module attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1814 http fetch GET https://registry.npmjs.org/stable-hash attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1815 http fetch GET https://registry.npmjs.org/get-tsconfig attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1816 http fetch GET https://registry.npmjs.org/is-bun-module attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1817 http fetch GET 200 https://registry.npmjs.org/fast-glob 70549ms (cache stale)
+1818 silly packumentCache full:https://registry.npmjs.org/fast-glob set size:220556 disposed:false
+1819 silly fetch manifest @rtsao/scc@^1.1.0
+1820 silly packumentCache full:https://registry.npmjs.org/@rtsao%2fscc cache-miss
+1821 http fetch GET 200 https://registry.npmjs.org/is-core-module 70561ms (cache stale)
+1822 silly packumentCache full:https://registry.npmjs.org/is-core-module set size:74378 disposed:false
+1823 silly fetch manifest array-includes@^3.1.9
+1824 silly packumentCache full:https://registry.npmjs.org/array-includes cache-miss
+1825 http fetch GET 200 https://registry.npmjs.org/stable-hash 70567ms (cache stale)
+1826 silly packumentCache full:https://registry.npmjs.org/stable-hash set size:18359 disposed:false
+1827 silly fetch manifest array.prototype.findlastindex@^1.2.6
+1828 silly packumentCache full:https://registry.npmjs.org/array.prototype.findlastindex cache-miss
+1829 http fetch GET 200 https://registry.npmjs.org/is-bun-module 70568ms (cache stale)
+1830 silly packumentCache full:https://registry.npmjs.org/is-bun-module set size:19768 disposed:false
+1831 silly fetch manifest array.prototype.flat@^1.3.3
+1832 silly packumentCache full:https://registry.npmjs.org/array.prototype.flat cache-miss
+1833 http fetch GET 200 https://registry.npmjs.org/get-tsconfig 70577ms (cache stale)
+1834 silly packumentCache full:https://registry.npmjs.org/get-tsconfig set size:128095 disposed:false
+1835 silly fetch manifest array.prototype.flatmap@^1.3.3
+1836 silly packumentCache full:https://registry.npmjs.org/array.prototype.flatmap cache-miss
+1837 http fetch GET https://registry.npmjs.org/unrs-resolver attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1838 http fetch GET https://registry.npmjs.org/@nolyfill%2fis-core-module attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1839 http fetch GET https://registry.npmjs.org/array.prototype.flatmap attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1840 http fetch GET https://registry.npmjs.org/@rtsao%2fscc attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1841 http fetch GET https://registry.npmjs.org/array.prototype.flat attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1842 http fetch GET https://registry.npmjs.org/array-includes attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1843 http fetch GET https://registry.npmjs.org/array.prototype.findlastindex attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1844 http fetch GET https://registry.npmjs.org/@rtsao%2fscc attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1845 http fetch GET https://registry.npmjs.org/unrs-resolver attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1846 http fetch GET https://registry.npmjs.org/array.prototype.flatmap attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1847 http fetch GET https://registry.npmjs.org/array-includes attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1848 http fetch GET https://registry.npmjs.org/array.prototype.findlastindex attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1849 http fetch GET https://registry.npmjs.org/@nolyfill%2fis-core-module attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1850 http fetch GET https://registry.npmjs.org/array.prototype.flat attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1851 http fetch GET https://registry.npmjs.org/unrs-resolver attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1852 http fetch GET 200 https://registry.npmjs.org/unrs-resolver 70395ms (cache stale)
+1853 silly packumentCache full:https://registry.npmjs.org/unrs-resolver set size:151128 disposed:false
+1854 silly fetch manifest doctrine@^2.1.0
+1855 silly packumentCache full:https://registry.npmjs.org/doctrine cache-miss
+1856 http fetch GET https://registry.npmjs.org/array-includes attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1857 http fetch GET https://registry.npmjs.org/array.prototype.flat attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1858 http fetch GET https://registry.npmjs.org/array.prototype.findlastindex attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1859 http fetch GET https://registry.npmjs.org/@nolyfill%2fis-core-module attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1860 http fetch GET https://registry.npmjs.org/@rtsao%2fscc attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1861 http fetch GET https://registry.npmjs.org/array.prototype.flatmap attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1862 http fetch GET 200 https://registry.npmjs.org/array-includes 70385ms (cache stale)
+1863 silly packumentCache full:https://registry.npmjs.org/array-includes set size:77143 disposed:false
+1864 silly fetch manifest eslint-module-utils@^2.12.1
+1865 silly packumentCache full:https://registry.npmjs.org/eslint-module-utils cache-miss
+1866 http fetch GET 200 https://registry.npmjs.org/@nolyfill%2fis-core-module 70435ms (cache stale)
+1867 silly packumentCache full:https://registry.npmjs.org/@nolyfill%2fis-core-module set size:10461 disposed:false
+1868 silly fetch manifest hasown@^2.0.2
+1869 silly packumentCache full:https://registry.npmjs.org/hasown cache-miss
+1870 http fetch GET 200 https://registry.npmjs.org/@rtsao%2fscc 70410ms (cache stale)
+1871 silly packumentCache full:https://registry.npmjs.org/@rtsao%2fscc set size:6332 disposed:false
+1872 silly fetch manifest minimatch@^3.1.2
+1873 silly packumentCache full:https://registry.npmjs.org/minimatch cache-hit
+1874 silly fetch manifest object.fromentries@^2.0.8
+1875 silly packumentCache full:https://registry.npmjs.org/object.fromentries cache-miss
+1876 http fetch GET 200 https://registry.npmjs.org/array.prototype.flat 70429ms (cache stale)
+1877 silly packumentCache full:https://registry.npmjs.org/array.prototype.flat set size:38327 disposed:false
+1878 silly fetch manifest object.groupby@^1.0.3
+1879 silly packumentCache full:https://registry.npmjs.org/object.groupby cache-miss
+1880 http fetch GET 200 https://registry.npmjs.org/array.prototype.findlastindex 70444ms (cache stale)
+1881 silly packumentCache full:https://registry.npmjs.org/array.prototype.findlastindex set size:44828 disposed:false
+1882 silly fetch manifest object.values@^1.2.1
+1883 silly packumentCache full:https://registry.npmjs.org/object.values cache-miss
+1884 http fetch GET 200 https://registry.npmjs.org/array.prototype.flatmap 70438ms (cache stale)
+1885 silly packumentCache full:https://registry.npmjs.org/array.prototype.flatmap set size:51458 disposed:false
+1886 silly fetch manifest semver@^6.3.1
+1887 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+1888 http fetch GET https://registry.npmjs.org/doctrine attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1889 http fetch GET https://registry.npmjs.org/object.values attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1890 http fetch GET https://registry.npmjs.org/object.fromentries attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1891 http fetch GET https://registry.npmjs.org/semver attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1892 http fetch GET https://registry.npmjs.org/object.groupby attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1893 http fetch GET https://registry.npmjs.org/eslint-module-utils attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1894 http fetch GET https://registry.npmjs.org/hasown attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1895 http fetch GET https://registry.npmjs.org/doctrine attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1896 http fetch GET https://registry.npmjs.org/hasown attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1897 http fetch GET https://registry.npmjs.org/eslint-module-utils attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1898 http fetch GET https://registry.npmjs.org/semver attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1899 http fetch GET https://registry.npmjs.org/object.groupby attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1900 http fetch GET https://registry.npmjs.org/object.values attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1901 http fetch GET https://registry.npmjs.org/object.fromentries attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1902 http fetch GET https://registry.npmjs.org/doctrine attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1903 http fetch GET 200 https://registry.npmjs.org/doctrine 70328ms (cache stale)
+1904 silly packumentCache full:https://registry.npmjs.org/doctrine set size:64052 disposed:false
+1905 silly fetch manifest string.prototype.trimend@^1.0.9
+1906 silly packumentCache full:https://registry.npmjs.org/string.prototype.trimend cache-miss
+1907 http fetch GET https://registry.npmjs.org/hasown attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1908 http fetch GET https://registry.npmjs.org/eslint-module-utils attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1909 http fetch GET 200 https://registry.npmjs.org/hasown 70326ms (cache stale)
+1910 silly packumentCache full:https://registry.npmjs.org/hasown set size:18361 disposed:false
+1911 silly fetch manifest tsconfig-paths@^3.15.0
+1912 silly packumentCache full:https://registry.npmjs.org/tsconfig-paths cache-miss
+1913 http fetch GET 200 https://registry.npmjs.org/eslint-module-utils 70341ms (cache stale)
+1914 silly packumentCache full:https://registry.npmjs.org/eslint-module-utils set size:80506 disposed:false
+1915 silly fetch manifest chalk@^4.0.0
+1916 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+1917 http fetch GET https://registry.npmjs.org/object.groupby attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1918 http fetch GET https://registry.npmjs.org/semver attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1919 http fetch GET https://registry.npmjs.org/object.values attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1920 http fetch GET https://registry.npmjs.org/object.fromentries attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1921 http fetch GET 200 https://registry.npmjs.org/object.groupby 70323ms (cache stale)
+1922 silly packumentCache full:https://registry.npmjs.org/object.groupby set size:15504 disposed:false
+1923 silly fetch manifest espree@^10.4.0
+1924 silly packumentCache full:https://registry.npmjs.org/espree cache-hit
+1925 silly fetch manifest minimatch@^3.1.5
+1926 silly packumentCache full:https://registry.npmjs.org/minimatch cache-hit
+1927 silly fetch manifest @eslint/js@9.39.4
+1928 silly packumentCache full:https://registry.npmjs.org/@eslint%2fjs cache-miss
+1929 http fetch GET 200 https://registry.npmjs.org/object.values 70326ms (cache stale)
+1930 silly packumentCache full:https://registry.npmjs.org/object.values set size:49009 disposed:false
+1931 silly fetch manifest @eslint/core@^0.17.0
+1932 silly packumentCache full:https://registry.npmjs.org/@eslint%2fcore cache-hit
+1933 silly fetch manifest eslint-scope@^8.4.0
+1934 silly packumentCache full:https://registry.npmjs.org/eslint-scope cache-hit
+1935 silly fetch manifest lodash.merge@^4.6.2
+1936 silly packumentCache full:https://registry.npmjs.org/lodash.merge cache-miss
+1937 http fetch GET 200 https://registry.npmjs.org/object.fromentries 70354ms (cache stale)
+1938 silly packumentCache full:https://registry.npmjs.org/object.fromentries set size:37686 disposed:false
+1939 silly fetch manifest @eslint/eslintrc@^3.3.5
+1940 silly packumentCache full:https://registry.npmjs.org/@eslint%2feslintrc cache-miss
+1941 http fetch GET 200 https://registry.npmjs.org/semver 70342ms (cache stale)
+1942 silly packumentCache full:https://registry.npmjs.org/semver set size:243512 disposed:false
+1943 silly fetch manifest @eslint/plugin-kit@^0.4.1
+1944 silly packumentCache full:https://registry.npmjs.org/@eslint%2fplugin-kit cache-hit
+1945 silly fetch manifest eslint-visitor-keys@^4.2.1
+1946 silly packumentCache full:https://registry.npmjs.org/eslint-visitor-keys cache-hit
+1947 silly fetch manifest @eslint/config-array@^0.21.2
+1948 silly packumentCache full:https://registry.npmjs.org/@eslint%2fconfig-array cache-hit
+1949 silly fetch manifest @eslint/config-helpers@^0.4.2
+1950 silly packumentCache full:https://registry.npmjs.org/@eslint%2fconfig-helpers cache-hit
+1951 silly fetch manifest aria-query@^5.3.2
+1952 silly packumentCache full:https://registry.npmjs.org/aria-query cache-miss
+1953 http fetch GET https://registry.npmjs.org/string.prototype.trimend attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1954 http fetch GET https://registry.npmjs.org/tsconfig-paths attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1955 http fetch GET https://registry.npmjs.org/chalk attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1956 http fetch GET https://registry.npmjs.org/@eslint%2fjs attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1957 http fetch GET https://registry.npmjs.org/lodash.merge attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1958 http fetch GET https://registry.npmjs.org/@eslint%2feslintrc attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1959 http fetch GET https://registry.npmjs.org/aria-query attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1960 http fetch GET https://registry.npmjs.org/tsconfig-paths attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1961 http fetch GET https://registry.npmjs.org/string.prototype.trimend attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1962 http fetch GET https://registry.npmjs.org/@eslint%2feslintrc attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1963 http fetch GET https://registry.npmjs.org/lodash.merge attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1964 http fetch GET https://registry.npmjs.org/@eslint%2fjs attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1965 http fetch GET https://registry.npmjs.org/aria-query attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1966 http fetch GET https://registry.npmjs.org/chalk attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1967 http fetch GET https://registry.npmjs.org/aria-query attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1968 http fetch GET https://registry.npmjs.org/tsconfig-paths attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1969 http fetch GET 200 https://registry.npmjs.org/aria-query 70338ms (cache stale)
+1970 silly packumentCache full:https://registry.npmjs.org/aria-query set size:98864 disposed:false
+1971 silly fetch manifest array-includes@^3.1.8
+1972 silly packumentCache full:https://registry.npmjs.org/array-includes cache-hit
+1973 silly fetch manifest array.prototype.flatmap@^1.3.2
+1974 silly packumentCache full:https://registry.npmjs.org/array.prototype.flatmap cache-hit
+1975 silly fetch manifest ast-types-flow@^0.0.8
+1976 silly packumentCache full:https://registry.npmjs.org/ast-types-flow cache-miss
+1977 http fetch GET 200 https://registry.npmjs.org/tsconfig-paths 70445ms (cache stale)
+1978 silly packumentCache full:https://registry.npmjs.org/tsconfig-paths set size:192565 disposed:false
+1979 silly fetch manifest axe-core@^4.10.0
+1980 silly packumentCache full:https://registry.npmjs.org/axe-core cache-miss
+1981 http fetch GET https://registry.npmjs.org/string.prototype.trimend attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1982 http fetch GET https://registry.npmjs.org/chalk attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1983 http fetch GET https://registry.npmjs.org/@eslint%2fjs attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1984 http fetch GET https://registry.npmjs.org/@eslint%2feslintrc attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1985 http fetch GET https://registry.npmjs.org/lodash.merge attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+1986 http fetch GET 200 https://registry.npmjs.org/string.prototype.trimend 70476ms (cache stale)
+1987 silly packumentCache full:https://registry.npmjs.org/string.prototype.trimend set size:44009 disposed:false
+1988 silly fetch manifest axobject-query@^4.1.0
+1989 silly packumentCache full:https://registry.npmjs.org/axobject-query cache-miss
+1990 http fetch GET 200 https://registry.npmjs.org/@eslint%2fjs 70422ms (cache stale)
+1991 silly packumentCache full:https://registry.npmjs.org/@eslint%2fjs set size:140022 disposed:false
+1992 silly fetch manifest damerau-levenshtein@^1.0.8
+1993 silly packumentCache full:https://registry.npmjs.org/damerau-levenshtein cache-miss
+1994 http fetch GET 200 https://registry.npmjs.org/chalk 70450ms (cache stale)
+1995 silly packumentCache full:https://registry.npmjs.org/chalk set size:117861 disposed:false
+1996 silly fetch manifest emoji-regex@^9.2.2
+1997 silly packumentCache full:https://registry.npmjs.org/emoji-regex cache-miss
+1998 http fetch GET 200 https://registry.npmjs.org/@eslint%2feslintrc 70414ms (cache stale)
+1999 silly packumentCache full:https://registry.npmjs.org/@eslint%2feslintrc set size:168674 disposed:false
+2000 silly fetch manifest jsx-ast-utils@^3.3.5
+2001 silly packumentCache full:https://registry.npmjs.org/jsx-ast-utils cache-miss
+2002 http fetch GET 200 https://registry.npmjs.org/lodash.merge 70424ms (cache stale)
+2003 silly packumentCache full:https://registry.npmjs.org/lodash.merge set size:78575 disposed:false
+2004 silly fetch manifest language-tags@^1.0.9
+2005 silly packumentCache full:https://registry.npmjs.org/language-tags cache-miss
+2006 http fetch GET https://registry.npmjs.org/ast-types-flow attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2007 http fetch GET https://registry.npmjs.org/axe-core attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2008 http fetch GET https://registry.npmjs.org/jsx-ast-utils attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2009 http fetch GET https://registry.npmjs.org/emoji-regex attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2010 http fetch GET https://registry.npmjs.org/language-tags attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2011 http fetch GET https://registry.npmjs.org/damerau-levenshtein attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2012 http fetch GET https://registry.npmjs.org/axobject-query attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2013 http fetch GET https://registry.npmjs.org/axe-core attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2014 http fetch GET https://registry.npmjs.org/ast-types-flow attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2015 http fetch GET https://registry.npmjs.org/emoji-regex attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2016 http fetch GET https://registry.npmjs.org/jsx-ast-utils attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2017 http fetch GET https://registry.npmjs.org/language-tags attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2018 http fetch GET https://registry.npmjs.org/damerau-levenshtein attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2019 http fetch GET https://registry.npmjs.org/axobject-query attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2020 http fetch GET https://registry.npmjs.org/ast-types-flow attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2021 http fetch GET https://registry.npmjs.org/axe-core attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2022 http fetch GET https://registry.npmjs.org/axobject-query attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2023 http fetch GET https://registry.npmjs.org/emoji-regex attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2024 http fetch GET https://registry.npmjs.org/language-tags attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2025 http fetch GET https://registry.npmjs.org/damerau-levenshtein attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2026 http fetch GET https://registry.npmjs.org/jsx-ast-utils attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2027 http fetch GET 200 https://registry.npmjs.org/ast-types-flow 70371ms (cache stale)
+2028 silly packumentCache full:https://registry.npmjs.org/ast-types-flow set size:15144 disposed:false
+2029 silly fetch manifest safe-regex-test@^1.0.3
+2030 silly packumentCache full:https://registry.npmjs.org/safe-regex-test cache-miss
+2031 http fetch GET 200 https://registry.npmjs.org/damerau-levenshtein 70370ms (cache stale)
+2032 silly packumentCache full:https://registry.npmjs.org/damerau-levenshtein set size:23390 disposed:false
+2033 silly fetch manifest string.prototype.includes@^2.0.1
+2034 silly packumentCache full:https://registry.npmjs.org/string.prototype.includes cache-miss
+2035 http fetch GET 200 https://registry.npmjs.org/axobject-query 70409ms (cache stale)
+2036 silly packumentCache full:https://registry.npmjs.org/axobject-query set size:75032 disposed:false
+2037 silly fetch manifest array.prototype.findlast@^1.2.5
+2038 silly packumentCache full:https://registry.npmjs.org/array.prototype.findlast cache-miss
+2039 http fetch GET 200 https://registry.npmjs.org/language-tags 70395ms (cache stale)
+2040 silly packumentCache full:https://registry.npmjs.org/language-tags set size:38675 disposed:false
+2041 silly fetch manifest array.prototype.tosorted@^1.1.4
+2042 silly packumentCache full:https://registry.npmjs.org/array.prototype.tosorted cache-miss
+2043 http fetch GET 200 https://registry.npmjs.org/emoji-regex 70408ms (cache stale)
+2044 silly packumentCache full:https://registry.npmjs.org/emoji-regex set size:89064 disposed:false
+2045 silly fetch manifest es-iterator-helpers@^1.2.1
+2046 silly packumentCache full:https://registry.npmjs.org/es-iterator-helpers cache-miss
+2047 http fetch GET 200 https://registry.npmjs.org/jsx-ast-utils 70408ms (cache stale)
+2048 silly packumentCache full:https://registry.npmjs.org/jsx-ast-utils set size:115998 disposed:false
+2049 silly fetch manifest estraverse@^5.3.0
+2050 silly packumentCache full:https://registry.npmjs.org/estraverse cache-hit
+2051 silly fetch manifest jsx-ast-utils@^2.4.1 || ^3.0.0
+2052 silly packumentCache full:https://registry.npmjs.org/jsx-ast-utils cache-hit
+2053 silly fetch manifest object.entries@^1.1.9
+2054 silly packumentCache full:https://registry.npmjs.org/object.entries cache-miss
+2055 http fetch GET 200 https://registry.npmjs.org/axe-core 70461ms (cache stale)
+2056 silly packumentCache full:https://registry.npmjs.org/axe-core set size:9520341 disposed:false
+2057 silly fetch manifest prop-types@^15.8.1
+2058 silly packumentCache full:https://registry.npmjs.org/prop-types cache-miss
+2059 http fetch GET https://registry.npmjs.org/safe-regex-test attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2060 http fetch GET https://registry.npmjs.org/es-iterator-helpers attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2061 http fetch GET https://registry.npmjs.org/array.prototype.tosorted attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2062 http fetch GET https://registry.npmjs.org/string.prototype.includes attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2063 http fetch GET https://registry.npmjs.org/array.prototype.findlast attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2064 http fetch GET https://registry.npmjs.org/prop-types attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2065 http fetch GET https://registry.npmjs.org/object.entries attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2066 http fetch GET https://registry.npmjs.org/safe-regex-test attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2067 http fetch GET https://registry.npmjs.org/es-iterator-helpers attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2068 http fetch GET https://registry.npmjs.org/array.prototype.tosorted attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2069 http fetch GET https://registry.npmjs.org/array.prototype.findlast attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2070 http fetch GET https://registry.npmjs.org/prop-types attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2071 http fetch GET https://registry.npmjs.org/string.prototype.includes attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2072 http fetch GET https://registry.npmjs.org/object.entries attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2073 http fetch GET https://registry.npmjs.org/safe-regex-test attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2074 http fetch GET https://registry.npmjs.org/es-iterator-helpers attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2075 http fetch GET 200 https://registry.npmjs.org/safe-regex-test 71497ms (cache stale)
+2076 silly packumentCache full:https://registry.npmjs.org/safe-regex-test set size:17412 disposed:false
+2077 silly fetch manifest resolve@^2.0.0-next.5
+2078 silly packumentCache full:https://registry.npmjs.org/resolve cache-hit
+2079 silly fetch manifest string.prototype.matchall@^4.0.12
+2080 silly packumentCache full:https://registry.npmjs.org/string.prototype.matchall cache-miss
+2081 http fetch GET 200 https://registry.npmjs.org/es-iterator-helpers 71462ms (cache stale)
+2082 silly packumentCache full:https://registry.npmjs.org/es-iterator-helpers set size:269439 disposed:false
+2083 silly fetch manifest string.prototype.repeat@^1.0.0
+2084 silly packumentCache full:https://registry.npmjs.org/string.prototype.repeat cache-miss
+2085 http fetch GET https://registry.npmjs.org/array.prototype.findlast attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2086 http fetch GET https://registry.npmjs.org/object.entries attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2087 http fetch GET https://registry.npmjs.org/string.prototype.includes attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2088 http fetch GET https://registry.npmjs.org/prop-types attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2089 http fetch GET 200 https://registry.npmjs.org/array.prototype.findlast 71487ms (cache stale)
+2090 silly packumentCache full:https://registry.npmjs.org/array.prototype.findlast set size:40323 disposed:false
+2091 silly fetch manifest zod@^3.25.0 || ^4.0.0
+2092 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+2093 http fetch GET 200 https://registry.npmjs.org/string.prototype.includes 71501ms (cache stale)
+2094 silly packumentCache full:https://registry.npmjs.org/string.prototype.includes set size:10217 disposed:false
+2095 silly fetch manifest @babel/core@^7.24.4
+2096 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-miss
+2097 http fetch GET 200 https://registry.npmjs.org/object.entries 71476ms (cache stale)
+2098 silly packumentCache full:https://registry.npmjs.org/object.entries set size:50037 disposed:false
+2099 silly fetch manifest @babel/parser@^7.24.4
+2100 silly packumentCache full:https://registry.npmjs.org/@babel%2fparser cache-miss
+2101 http fetch GET 200 https://registry.npmjs.org/prop-types 71317ms (cache stale)
+2102 silly packumentCache full:https://registry.npmjs.org/prop-types set size:76747 disposed:false
+2103 silly fetch manifest hermes-parser@^0.25.1
+2104 silly packumentCache full:https://registry.npmjs.org/hermes-parser cache-miss
+2105 http fetch GET https://registry.npmjs.org/array.prototype.tosorted attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2106 http fetch GET 200 https://registry.npmjs.org/array.prototype.tosorted 71503ms (cache stale)
+2107 silly packumentCache full:https://registry.npmjs.org/array.prototype.tosorted set size:24661 disposed:false
+2108 silly fetch manifest zod-validation-error@^3.5.0 || ^4.0.0
+2109 silly packumentCache full:https://registry.npmjs.org/zod-validation-error cache-miss
+2110 http fetch GET https://registry.npmjs.org/string.prototype.matchall attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2111 http fetch GET https://registry.npmjs.org/string.prototype.repeat attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2112 http fetch GET https://registry.npmjs.org/zod attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2113 http fetch GET https://registry.npmjs.org/@babel%2fparser attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2114 http fetch GET https://registry.npmjs.org/@babel%2fcore attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2115 http fetch GET https://registry.npmjs.org/hermes-parser attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2116 http fetch GET https://registry.npmjs.org/zod-validation-error attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2117 http fetch GET https://registry.npmjs.org/string.prototype.matchall attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2118 http fetch GET https://registry.npmjs.org/string.prototype.repeat attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2119 http fetch GET https://registry.npmjs.org/zod attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2120 http fetch GET https://registry.npmjs.org/@babel%2fcore attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2121 http fetch GET https://registry.npmjs.org/hermes-parser attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2122 http fetch GET https://registry.npmjs.org/@babel%2fparser attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2123 http fetch GET https://registry.npmjs.org/zod-validation-error attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2124 http fetch GET https://registry.npmjs.org/string.prototype.matchall attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2125 http fetch GET 200 https://registry.npmjs.org/string.prototype.matchall 70359ms (cache stale)
+2126 silly packumentCache full:https://registry.npmjs.org/string.prototype.matchall set size:63239 disposed:false
+2127 silly fetch manifest @typescript-eslint/utils@8.61.1
+2128 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils cache-miss
+2129 http fetch GET https://registry.npmjs.org/string.prototype.repeat attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2130 http fetch GET https://registry.npmjs.org/zod attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2131 http fetch GET 200 https://registry.npmjs.org/string.prototype.repeat 70365ms (cache stale)
+2132 silly packumentCache full:https://registry.npmjs.org/string.prototype.repeat set size:8608 disposed:false
+2133 silly fetch manifest @typescript-eslint/parser@8.61.1
+2134 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser cache-miss
+2135 http fetch GET https://registry.npmjs.org/@babel%2fcore attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2136 http fetch GET 200 https://registry.npmjs.org/zod 70369ms (cache stale)
+2137 silly packumentCache full:https://registry.npmjs.org/zod set size:3552562 disposed:false
+2138 silly fetch manifest @typescript-eslint/eslint-plugin@8.61.1
+2139 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin cache-miss
+2140 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 70395ms (cache stale)
+2141 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore set size:788258 disposed:false
+2142 silly fetch manifest @typescript-eslint/typescript-estree@8.61.1
+2143 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree cache-miss
+2144 http fetch GET https://registry.npmjs.org/@babel%2fparser attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2145 http fetch GET https://registry.npmjs.org/hermes-parser attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2146 http fetch GET 200 https://registry.npmjs.org/hermes-parser 70449ms (cache stale)
+2147 silly packumentCache full:https://registry.npmjs.org/hermes-parser set size:170002 disposed:false
+2148 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 70460ms (cache stale)
+2149 silly packumentCache full:https://registry.npmjs.org/@babel%2fparser set size:732981 disposed:false
+2150 http fetch GET https://registry.npmjs.org/@typescript-eslint%2futils attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2151 http fetch GET https://registry.npmjs.org/zod-validation-error attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2152 http fetch GET 200 https://registry.npmjs.org/zod-validation-error 70497ms (cache stale)
+2153 silly packumentCache full:https://registry.npmjs.org/zod-validation-error set size:178465 disposed:false
+2154 http fetch GET https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2155 http fetch GET https://registry.npmjs.org/@typescript-eslint%2feslint-plugin attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2156 http fetch GET https://registry.npmjs.org/@typescript-eslint%2fparser attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2157 http fetch GET https://registry.npmjs.org/@typescript-eslint%2futils attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2158 http fetch GET https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2159 http fetch GET https://registry.npmjs.org/@typescript-eslint%2feslint-plugin attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2160 http fetch GET https://registry.npmjs.org/@typescript-eslint%2fparser attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2161 http fetch GET https://registry.npmjs.org/@typescript-eslint%2futils attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2162 http fetch GET https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2163 http fetch GET https://registry.npmjs.org/@typescript-eslint%2fparser attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2164 http fetch GET https://registry.npmjs.org/@typescript-eslint%2feslint-plugin attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2165 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2futils 70558ms (cache stale)
+2166 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils set size:10285455 disposed:false
+2167 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree 70804ms (cache stale)
+2168 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree set size:16524542 disposed:false
+2169 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fparser 71080ms (cache stale)
+2170 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser set size:15310259 disposed:false
+2171 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2feslint-plugin 71135ms (cache stale)
+2172 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin set size:18092876 disposed:false
+2173 silly placeDep ROOT fast-glob@3.3.1 OK for: @next/eslint-plugin-next@16.2.9 want: 3.3.1
+2174 silly fetch manifest merge2@^1.3.0
+2175 silly packumentCache full:https://registry.npmjs.org/merge2 cache-miss
+2176 silly fetch manifest micromatch@^4.0.4
+2177 silly packumentCache full:https://registry.npmjs.org/micromatch cache-miss
+2178 silly fetch manifest glob-parent@^5.1.2
+2179 silly packumentCache full:https://registry.npmjs.org/glob-parent cache-hit
+2180 silly fetch manifest @nodelib/fs.stat@^2.0.2
+2181 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.stat cache-miss
+2182 silly fetch manifest @nodelib/fs.walk@^1.2.3
+2183 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.walk cache-miss
+2184 http fetch GET https://registry.npmjs.org/merge2 attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2185 http fetch GET https://registry.npmjs.org/@nodelib%2ffs.stat attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2186 http fetch GET https://registry.npmjs.org/micromatch attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2187 http fetch GET https://registry.npmjs.org/@nodelib%2ffs.walk attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2188 http fetch GET https://registry.npmjs.org/@nodelib%2ffs.stat attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2189 http fetch GET https://registry.npmjs.org/merge2 attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2190 http fetch GET https://registry.npmjs.org/micromatch attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2191 http fetch GET https://registry.npmjs.org/@nodelib%2ffs.walk attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2192 http fetch GET https://registry.npmjs.org/@nodelib%2ffs.stat attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2193 http fetch GET https://registry.npmjs.org/merge2 attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2194 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.stat 70343ms (cache stale)
+2195 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.stat set size:36993 disposed:false
+2196 http fetch GET https://registry.npmjs.org/micromatch attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2197 http fetch GET https://registry.npmjs.org/@nodelib%2ffs.walk attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2198 http fetch GET 200 https://registry.npmjs.org/merge2 70352ms (cache stale)
+2199 silly packumentCache full:https://registry.npmjs.org/merge2 set size:46159 disposed:false
+2200 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.walk 70357ms (cache stale)
+2201 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.walk set size:41589 disposed:false
+2202 http fetch GET 200 https://registry.npmjs.org/micromatch 70360ms (cache stale)
+2203 silly packumentCache full:https://registry.npmjs.org/micromatch set size:240630 disposed:false
+2204 silly placeDep ROOT @eslint/config-array@0.21.2 OK for: eslint@9.39.4 want: ^0.21.2
+2205 silly placeDep ROOT @eslint/config-helpers@0.4.2 OK for: eslint@9.39.4 want: ^0.4.2
+2206 silly placeDep ROOT @eslint/core@0.17.0 OK for: eslint@9.39.4 want: ^0.17.0
+2207 silly placeDep ROOT @eslint/eslintrc@3.3.5 OK for: eslint@9.39.4 want: ^3.3.5
+2208 silly placeDep ROOT @eslint/js@9.39.4 OK for: eslint@9.39.4 want: 9.39.4
+2209 silly placeDep ROOT @eslint/plugin-kit@0.4.1 OK for: eslint@9.39.4 want: ^0.4.1
+2210 silly placeDep ROOT @types/estree@1.0.9 OK for: eslint@9.39.4 want: ^1.0.6
+2211 silly placeDep ROOT chalk@4.1.2 OK for: eslint@9.39.4 want: ^4.0.0
+2212 silly placeDep ROOT eslint-scope@8.4.0 OK for: eslint@9.39.4 want: ^8.4.0
+2213 silly placeDep ROOT eslint-visitor-keys@4.2.1 OK for: eslint@9.39.4 want: ^4.2.1
+2214 silly placeDep ROOT espree@10.4.0 OK for: eslint@9.39.4 want: ^10.4.0
+2215 silly placeDep ROOT lodash.merge@4.6.2 OK for: eslint@9.39.4 want: ^4.6.2
+2216 silly placeDep ROOT minimatch@3.1.5 OK for: eslint@9.39.4 want: ^3.1.5
+2217 silly fetch manifest @eslint/object-schema@^2.1.7
+2218 silly packumentCache full:https://registry.npmjs.org/@eslint%2fobject-schema cache-hit
+2219 silly fetch manifest espree@^10.0.1
+2220 silly packumentCache full:https://registry.npmjs.org/espree cache-hit
+2221 silly fetch manifest globals@^14.0.0
+2222 silly packumentCache full:https://registry.npmjs.org/globals cache-hit
+2223 silly fetch manifest import-fresh@^3.2.1
+2224 silly packumentCache full:https://registry.npmjs.org/import-fresh cache-miss
+2225 silly fetch manifest js-yaml@^4.1.1
+2226 silly packumentCache full:https://registry.npmjs.org/js-yaml cache-miss
+2227 silly fetch manifest strip-json-comments@^3.1.1
+2228 silly packumentCache full:https://registry.npmjs.org/strip-json-comments cache-miss
+2229 silly fetch manifest ansi-styles@^4.1.0
+2230 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+2231 silly fetch manifest supports-color@^7.1.0
+2232 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+2233 silly fetch manifest acorn@^8.15.0
+2234 silly packumentCache full:https://registry.npmjs.org/acorn cache-hit
+2235 silly fetch manifest brace-expansion@^1.1.7
+2236 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-hit
+2237 http fetch GET https://registry.npmjs.org/strip-json-comments attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2238 http fetch GET https://registry.npmjs.org/ansi-styles attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2239 http fetch GET https://registry.npmjs.org/js-yaml attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2240 http fetch GET https://registry.npmjs.org/import-fresh attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2241 http fetch GET https://registry.npmjs.org/supports-color attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2242 http fetch GET https://registry.npmjs.org/ansi-styles attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2243 http fetch GET https://registry.npmjs.org/strip-json-comments attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2244 http fetch GET https://registry.npmjs.org/js-yaml attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2245 http fetch GET https://registry.npmjs.org/import-fresh attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2246 http fetch GET https://registry.npmjs.org/supports-color attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2247 http fetch GET https://registry.npmjs.org/ansi-styles attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2248 http fetch GET https://registry.npmjs.org/import-fresh attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2249 http fetch GET https://registry.npmjs.org/js-yaml attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2250 http fetch GET https://registry.npmjs.org/strip-json-comments attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2251 http fetch GET https://registry.npmjs.org/supports-color attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2252 http fetch GET 200 https://registry.npmjs.org/import-fresh 70500ms (cache stale)
+2253 silly packumentCache full:https://registry.npmjs.org/import-fresh set size:24604 disposed:false
+2254 http fetch GET 200 https://registry.npmjs.org/ansi-styles 70513ms (cache stale)
+2255 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:63233 disposed:false
+2256 http fetch GET 200 https://registry.npmjs.org/strip-json-comments 70517ms (cache stale)
+2257 silly packumentCache full:https://registry.npmjs.org/strip-json-comments set size:43569 disposed:false
+2258 http fetch GET 200 https://registry.npmjs.org/js-yaml 70519ms (cache stale)
+2259 silly packumentCache full:https://registry.npmjs.org/js-yaml set size:152841 disposed:false
+2260 http fetch GET 200 https://registry.npmjs.org/supports-color 70525ms (cache stale)
+2261 silly packumentCache full:https://registry.npmjs.org/supports-color set size:118680 disposed:false
+2262 silly placeDep ROOT @eslint/object-schema@2.1.7 OK for: @eslint/config-array@0.21.2 want: ^2.1.7
+2263 silly placeDep ROOT @types/json-schema@7.0.15 OK for: @eslint/core@0.17.0 want: ^7.0.15
+2264 silly placeDep node_modules/@eslint/eslintrc globals@14.0.0 OK for: @eslint/eslintrc@3.3.5 want: ^14.0.0
+2265 silly placeDep ROOT import-fresh@3.3.1 OK for: @eslint/eslintrc@3.3.5 want: ^3.2.1
+2266 silly placeDep ROOT js-yaml@4.2.0 OK for: @eslint/eslintrc@3.3.5 want: ^4.1.1
+2267 silly placeDep ROOT strip-json-comments@3.1.1 OK for: @eslint/eslintrc@3.3.5 want: ^3.1.1
+2268 silly fetch manifest resolve-from@^4.0.0
+2269 silly packumentCache full:https://registry.npmjs.org/resolve-from cache-miss
+2270 silly fetch manifest parent-module@^1.0.0
+2271 silly packumentCache full:https://registry.npmjs.org/parent-module cache-miss
+2272 silly fetch manifest argparse@^2.0.1
+2273 silly packumentCache full:https://registry.npmjs.org/argparse cache-miss
+2274 http fetch GET https://registry.npmjs.org/parent-module attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2275 http fetch GET https://registry.npmjs.org/resolve-from attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2276 http fetch GET https://registry.npmjs.org/argparse attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2277 http fetch GET https://registry.npmjs.org/resolve-from attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2278 http fetch GET https://registry.npmjs.org/argparse attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2279 http fetch GET https://registry.npmjs.org/parent-module attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2280 http fetch GET https://registry.npmjs.org/resolve-from attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2281 http fetch GET https://registry.npmjs.org/parent-module attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2282 http fetch GET https://registry.npmjs.org/argparse attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2283 http fetch GET 200 https://registry.npmjs.org/resolve-from 70337ms (cache stale)
+2284 silly packumentCache full:https://registry.npmjs.org/resolve-from set size:12911 disposed:false
+2285 http fetch GET 200 https://registry.npmjs.org/parent-module 70345ms (cache stale)
+2286 silly packumentCache full:https://registry.npmjs.org/parent-module set size:18255 disposed:false
+2287 http fetch GET 200 https://registry.npmjs.org/argparse 70348ms (cache stale)
+2288 silly packumentCache full:https://registry.npmjs.org/argparse set size:49266 disposed:false
+2289 silly placeDep ROOT ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+2290 silly placeDep ROOT supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+2291 silly fetch manifest color-convert@^2.0.1
+2292 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+2293 silly fetch manifest has-flag@^4.0.0
+2294 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+2295 http fetch GET https://registry.npmjs.org/has-flag attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2296 http fetch GET https://registry.npmjs.org/color-convert attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2297 http fetch GET https://registry.npmjs.org/color-convert attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2298 http fetch GET https://registry.npmjs.org/has-flag attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2299 http fetch GET https://registry.npmjs.org/has-flag attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2300 http fetch GET https://registry.npmjs.org/color-convert attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2301 http fetch GET 200 https://registry.npmjs.org/has-flag 9536836ms (cache stale)
+2302 silly packumentCache full:https://registry.npmjs.org/has-flag set size:15180 disposed:false
+2303 http fetch GET 200 https://registry.npmjs.org/color-convert 9537365ms (cache stale)
+2304 silly packumentCache full:https://registry.npmjs.org/color-convert set size:72663 disposed:false
+2305 silly placeDep ROOT color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+2306 silly fetch manifest color-name@~1.1.4
+2307 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+2308 http fetch GET https://registry.npmjs.org/color-name attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2309 http fetch GET https://registry.npmjs.org/color-name attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2310 http fetch GET https://registry.npmjs.org/color-name attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2311 http fetch GET 200 https://registry.npmjs.org/color-name 74084ms (cache stale)
+2312 silly packumentCache full:https://registry.npmjs.org/color-name set size:19467 disposed:false
+2313 silly placeDep ROOT color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+2314 silly placeDep node_modules/eslint-import-resolver-node debug@3.2.7 OK for: eslint-import-resolver-node@0.3.10 want: ^3.2.7
+2315 silly placeDep ROOT is-core-module@2.16.2 OK for: eslint-import-resolver-node@0.3.10 want: ^2.16.1
+2316 silly placeDep ROOT resolve@2.0.0-next.7 OK for: eslint-import-resolver-node@0.3.10 want: ^2.0.0-next.6
+2317 silly fetch manifest hasown@^2.0.3
+2318 silly packumentCache full:https://registry.npmjs.org/hasown cache-hit
+2319 silly fetch manifest es-errors@^1.3.0
+2320 silly packumentCache full:https://registry.npmjs.org/es-errors cache-miss
+2321 silly fetch manifest node-exports-info@^1.6.0
+2322 silly packumentCache full:https://registry.npmjs.org/node-exports-info cache-miss
+2323 silly fetch manifest object-keys@^1.1.1
+2324 silly packumentCache full:https://registry.npmjs.org/object-keys cache-miss
+2325 silly fetch manifest path-parse@^1.0.7
+2326 silly packumentCache full:https://registry.npmjs.org/path-parse cache-miss
+2327 silly fetch manifest supports-preserve-symlinks-flag@^1.0.0
+2328 silly packumentCache full:https://registry.npmjs.org/supports-preserve-symlinks-flag cache-miss
+2329 http fetch GET https://registry.npmjs.org/path-parse attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2330 http fetch GET https://registry.npmjs.org/es-errors attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2331 http fetch GET https://registry.npmjs.org/node-exports-info attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2332 http fetch GET https://registry.npmjs.org/supports-preserve-symlinks-flag attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2333 http fetch GET https://registry.npmjs.org/object-keys attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2334 http fetch GET https://registry.npmjs.org/path-parse attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2335 http fetch GET https://registry.npmjs.org/es-errors attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2336 http fetch GET https://registry.npmjs.org/supports-preserve-symlinks-flag attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2337 http fetch GET https://registry.npmjs.org/node-exports-info attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2338 http fetch GET https://registry.npmjs.org/object-keys attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2339 http fetch GET https://registry.npmjs.org/path-parse attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2340 http fetch GET 200 https://registry.npmjs.org/path-parse 70285ms (cache stale)
+2341 silly packumentCache full:https://registry.npmjs.org/path-parse set size:14523 disposed:false
+2342 http fetch GET https://registry.npmjs.org/es-errors attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2343 http fetch GET https://registry.npmjs.org/supports-preserve-symlinks-flag attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2344 http fetch GET 200 https://registry.npmjs.org/es-errors 70317ms (cache stale)
+2345 silly packumentCache full:https://registry.npmjs.org/es-errors set size:16918 disposed:false
+2346 http fetch GET 200 https://registry.npmjs.org/supports-preserve-symlinks-flag 70327ms (cache stale)
+2347 silly packumentCache full:https://registry.npmjs.org/supports-preserve-symlinks-flag set size:6802 disposed:false
+2348 http fetch GET https://registry.npmjs.org/object-keys attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2349 http fetch GET https://registry.npmjs.org/node-exports-info attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2350 http fetch GET 200 https://registry.npmjs.org/object-keys 70338ms (cache stale)
+2351 silly packumentCache full:https://registry.npmjs.org/object-keys set size:67744 disposed:false
+2352 http fetch GET 200 https://registry.npmjs.org/node-exports-info 70358ms (cache stale)
+2353 silly packumentCache full:https://registry.npmjs.org/node-exports-info set size:58723 disposed:false
+2354 silly placeDep ROOT @nolyfill/is-core-module@1.0.39 OK for: eslint-import-resolver-typescript@3.10.1 want: 1.0.39
+2355 silly placeDep ROOT get-tsconfig@4.14.0 OK for: eslint-import-resolver-typescript@3.10.1 want: ^4.10.0
+2356 silly placeDep ROOT is-bun-module@2.0.0 OK for: eslint-import-resolver-typescript@3.10.1 want: ^2.0.0
+2357 silly placeDep ROOT stable-hash@0.0.5 OK for: eslint-import-resolver-typescript@3.10.1 want: ^0.0.5
+2358 silly placeDep ROOT tinyglobby@0.2.17 OK for: eslint-import-resolver-typescript@3.10.1 want: ^0.2.13
+2359 silly placeDep ROOT unrs-resolver@1.12.2 OK for: eslint-import-resolver-typescript@3.10.1 want: ^1.6.2
+2360 silly fetch manifest resolve-pkg-maps@^1.0.0
+2361 silly packumentCache full:https://registry.npmjs.org/resolve-pkg-maps cache-miss
+2362 silly fetch manifest semver@^7.7.1
+2363 silly packumentCache full:https://registry.npmjs.org/semver cache-hit
+2364 silly fetch manifest fdir@^6.5.0
+2365 silly packumentCache full:https://registry.npmjs.org/fdir cache-miss
+2366 silly fetch manifest picomatch@^4.0.4
+2367 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+2368 silly fetch manifest napi-postinstall@^0.3.4
+2369 silly packumentCache full:https://registry.npmjs.org/napi-postinstall cache-miss
+2370 silly fetch manifest @unrs/resolver-binding-darwin-arm64@1.12.2
+2371 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 cache-miss
+2372 silly fetch manifest @unrs/resolver-binding-android-arm64@1.12.2
+2373 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 cache-miss
+2374 silly fetch manifest @unrs/resolver-binding-win32-arm64-msvc@1.12.2
+2375 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc cache-miss
+2376 http fetch GET https://registry.npmjs.org/napi-postinstall attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2377 http fetch GET https://registry.npmjs.org/resolve-pkg-maps attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2378 http fetch GET https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2379 http fetch GET https://registry.npmjs.org/picomatch attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2380 http fetch GET https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2381 http fetch GET https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2382 http fetch GET https://registry.npmjs.org/fdir attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2383 http fetch GET https://registry.npmjs.org/resolve-pkg-maps attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2384 http fetch GET https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2385 http fetch GET https://registry.npmjs.org/napi-postinstall attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2386 http fetch GET https://registry.npmjs.org/picomatch attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2387 http fetch GET https://registry.npmjs.org/fdir attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2388 http fetch GET https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+2389 http fetch GET https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE

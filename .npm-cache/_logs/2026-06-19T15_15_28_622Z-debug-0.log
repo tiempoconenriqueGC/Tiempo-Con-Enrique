@@ -1,0 +1,40 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.9.0
+2 info using node@v24.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique\.npmrc
+5 silly config load:file:C:\Users\andre\.npmrc
+6 silly config load:file:C:\Users\andre\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @vercel/analytics
+8 verbose argv "install" "@vercel/analytics" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique\.npm-cache\_logs\2026-06-19T15_15_28_622Z-
+10 verbose logfile C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique\.npm-cache\_logs\2026-06-19T15_15_28_622Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest @vercel/analytics@*
+15 silly packumentCache full:https://registry.npmjs.org/@vercel%2fanalytics cache-miss
+16 http fetch GET https://registry.npmjs.org/@vercel%2fanalytics attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+17 http fetch GET https://registry.npmjs.org/@vercel%2fanalytics attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+18 http fetch GET https://registry.npmjs.org/@vercel%2fanalytics attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+19 silly placeDep ROOT @vercel/analytics@ OK for: tiempo-con-enrique@0.1.0 want: *
+20 verbose type system
+21 verbose stack FetchError: request to https://registry.npmjs.org/@vercel%2fanalytics failed, reason: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca
+21 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+21 verbose stack     at ClientRequest.emit (node:events:508:28)
+21 verbose stack     at emitErrorEvent (node:_http_client:108:11)
+21 verbose stack     at _destroy (node:_http_client:963:9)
+21 verbose stack     at onSocketNT (node:_http_client:983:5)
+21 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+22 error code UNABLE_TO_VERIFY_LEAF_SIGNATURE
+23 error errno UNABLE_TO_VERIFY_LEAF_SIGNATURE
+24 error request to https://registry.npmjs.org/@vercel%2fanalytics failed, reason: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca
+25 silly unfinished npm timer reify 1781882131178
+26 silly unfinished npm timer reify:loadTrees 1781882131179
+27 verbose cwd C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique
+28 verbose os Windows_NT 10.0.26200
+29 verbose node v24.14.0
+30 verbose npm  v11.9.0
+31 verbose exit 1
+32 verbose code 1
+33 error A complete log of this run can be found in: C:\Users\andre\OneDrive - Universidad Pontificia Comillas\TiempoConEnrique\.npm-cache\_logs\2026-06-19T15_15_28_622Z-debug-0.log

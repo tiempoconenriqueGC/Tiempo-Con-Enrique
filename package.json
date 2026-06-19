@@ -17,6 +17,7 @@
     "@tiptap/extension-text-style": "latest",
     "@tiptap/react": "latest",
     "@tiptap/starter-kit": "latest",
+    "@vercel/analytics": "^2.0.1",
     "clsx": "latest",
     "next": "latest",
     "react": "latest",
